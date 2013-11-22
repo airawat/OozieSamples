@@ -1,0 +1,29 @@
+<coordinator-app name="AirawatCoordJobDataTrig" 
+		 frequency="${coord:days(1)}"
+                 start="${startTime}" 
+		 end="${endTime}" 
+		 timezone="${timeZoneDef}"
+                 xmlns="uri:oozie:coordinator:0.1"
+		 xmlns:sla="uri:oozie:sla:0.1">
+       	<controls>
+                <timeout>20</timeout>
+                <concurrency>6</concurrency>
+                <execution>FIFO</execution>
+        </controls>
+	 <datasets>
+                <dataset name="inputDS" frequency="${coord:days(1)}" initial-instance="${startTime}" timezone="${timeZoneDef}">
+                        <uri-template>${triggerDatasetDir}</uri-template>
+                </dataset>
+        </datasets>
+        <input-events>
+                <data-in name="AirawatCoordTrigDepInput" dataset="inputDS">
+                        <instance>${startTime}</instance>
+                </data-in>
+        </input-events>
+        <action>
+                <workflow>
+                        <app-path>${sqoopWorkflowAppPath}</app-path>
+                </workflow>
+        </action>     
+</coordinator-app>
+
