@@ -1,4 +1,5 @@
-This repository contains Oozie applications covered in my blog -
+This repository contains Oozie applications (sample data, scripts, configurations, libraries, 
+HDFS and Oozie commands) covered in my blog -
 hadooped.blogspot.com
 
 The blog listing below shows actions/functionality covered:
