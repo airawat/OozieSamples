@@ -1,0 +1,82 @@
+<workflow-app name="WorkFlowJavaMapReduceAction" xmlns="uri:oozie:workflow:0.1">
+    <start to="mapReduceAction"/>
+        <action name="mapReduceAction">
+                <map-reduce>
+			<job-tracker>${jobTracker}</job-tracker>
+                        <name-node>${nameNode}</name-node>
+			<prepare>
+                		<delete path="${outputDir}"/>
+            		</prepare>
+                        <configuration>
+				<property>
+                			<name>mapred.mapper.new-api</name>
+                			<value>true</value>
+            			</property>
+            			<property>
+                			<name>mapred.reducer.new-api</name>
+                			<value>true</value>
+                 		</property>
+				<property>
+                    			<name>mapred.job.queue.name</name>
+                	        	<value>${queueName}</value>
+		                </property>
+                                <property>
+                                        <name>mapreduce.map.class</name>
+                                        <value>Airawat.Oozie.Samples.LogEventCountMapper</value>
+                                </property>
+                                <property>
+                                        <name>mapreduce.reduce.class</name>
+                                        <value>Airawat.Oozie.Samples.LogEventCountReducer</value>
+                                </property>
+				<property>
+                			<name>mapred.mapoutput.key.class</name>
+                			<value>org.apache.hadoop.io.Text</value>
+        			</property>
+        			<property>
+                			<name>mapred.mapoutput.value.class</name>
+                			<value>org.apache.hadoop.io.IntWritable</value>
+        			</property>
+        			<property>
+                			<name>mapred.output.key.class</name>
+                			<value>org.apache.hadoop.io.Text</value>
+        			</property>
+        			<property>
+                			<name>mapred.output.value.class</name>
+                			<value>org.apache.hadoop.io.IntWritable</value>
+        			</property>
+                                <property>
+                                        <name>mapred.input.dir</name>
+                                        <value>${inputDir}</value>
+                                </property>
+                                <property>
+                                        <name>mapred.output.dir</name>
+                                        <value>${outputDir}</value>
+                                </property>
+				<property>
+      					<name>mapreduce.job.acl-view-job</name>
+      					<value>*</value>
+    				</property>
+    				<property>
+      					<name>oozie.launcher.mapreduce.job.acl-view-job</name>
+      					<value>*</value>
+    				</property>
+				<property>
+					<name>oozie.use.system.libpath</name>
+					<value>false</value>
+				</property>
+				<property>
+					<name>oozie.libpath</name>
+					<value>${appPath}/lib</value>
+				</property>	
+				
+
+                        </configuration>
+                </map-reduce>
+                <ok to="end"/>
+                <error to="killJob"/>
+        </action>
+        <kill name="killJob">
+            <message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+        </kill>
+    <end name="end" />
+</workflow-app>
