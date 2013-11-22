@@ -1,0 +1,18 @@
+<coordinator-app name="AirawatCoordJobTimeDep" 
+		 frequency="${coord:days(1)}"
+                 start="${startTime}" 
+		 end="${endTime}" 
+		 timezone="${timeZoneDef}"
+                 xmlns="uri:oozie:coordinator:0.1">
+        <controls>
+                <timeout>20</timeout>
+                <concurrency>6</concurrency>
+                <execution>FIFO</execution>
+        </controls>
+        <action>
+                <workflow>
+                        <app-path>${workflowAppPath}</app-path>
+                </workflow>
+        </action>     
+</coordinator-app>
+

@@ -1,0 +1,57 @@
+<workflow-app name="AirawatSampleCoordJob-Parent" xmlns="uri:oozie:workflow:0.1">
+	<start to="inputAvailableCheckDecision"/>
+        <decision name="inputAvailableCheckDecision">
+                <switch>
+                        <case to="startTaskFork">
+                                ${inputDirRecordCount gt minRequiredRecordCount}
+                        </case>
+                        <default to="end"/>
+                </switch>
+        </decision>
+	<fork name="startTaskFork">
+                <path start="javaMainAction"/>
+                <path start="hiveSubWorkflow"/>
+        </fork>
+	<action name="javaMainAction">
+                <java>
+                        <job-tracker>${jobTracker}</job-tracker>
+                        <name-node>${nameNode}</name-node>
+                        <prepare>
+                                <delete path="${outputDirJavaMain}"/>
+                        </prepare>
+                        <configuration>
+                                <property>
+                                        <name>mapred.job.queue.name</name>
+                                        <value>${queueName}</value>
+                                </property>
+                        </configuration>
+                        <main-class>Airawat.Oozie.Samples.LogEventCount</main-class>
+                        <arg>${inputDir}</arg>
+                        <arg>${outputDirJavaMain}</arg>
+                </java>
+                <ok to="joiningControl-P"/>
+                <error to="sendErrorEmail"/>
+        </action>
+        <action name='hiveSubWorkflow'>
+        	<sub-workflow>
+            		<app-path>${subWorkflowAppPath}</app-path>
+			<propagate-configuration/>
+		</sub-workflow>
+		<ok to="joiningControl-P" />
+        	<error to="sendErrorEmail" />
+	</action>
+	<join name="joiningControl-P" to="end"/>
+    	<action name="sendErrorEmail">
+    		<email xmlns="uri:oozie:email-action:0.1">
+                        <to>${toEmailAddress}</to>
+                        <subject>Status of workflow ${wf:id()}</subject>
+                        <body>The workflow ${wf:name()} with id -${wf:id()}, had issues and will be killed;  The error logged is: ${wf:errorMessage(wf:lastErrorNode());}</body>
+                </email>
+                <ok to="killJobAction"/>
+                <error to="killJobAction"/>
+	</action>
+	<kill name="killJobAction">
+                <message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+        </kill>
+       	<end name="end" />
+</workflow-app>
