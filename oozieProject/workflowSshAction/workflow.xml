@@ -1,0 +1,29 @@
+<!--******************************************-->
+<!--workflow.xml                              -->
+<!--******************************************-->
+ 
+<workflow-app name="WorkFlowForSshAction" xmlns="uri:oozie:workflow:0.1">
+    <start to="sshAction"/>
+    <action name="sshAction">
+        <ssh xmlns="uri:oozie:ssh-action:0.1">
+            <host>${focusNodeLogin}</host>
+	    <command>${shellScriptPath}</command>
+            <capture-output/>
+        </ssh>
+	<ok to="sendEmail"/>
+        <error to="killAction"/>
+    </action>
+    <action name="sendEmail">
+        <email xmlns="uri:oozie:email-action:0.1">
+              <to>${emailToAddress}</to>
+              <subject>Output of workflow ${wf:id()}</subject>
+              <body>Status of the file move: ${wf:actionData('sshAction')['STATUS']}</body>
+        </email>
+        <ok to="end"/>
+        <error to="end"/>
+    </action>
+    <kill name="killAction">
+        <message>"Killed job due to error"</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
