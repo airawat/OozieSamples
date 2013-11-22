@@ -1,0 +1,43 @@
+<workflow-app name="SubWorkflow-Parent" xmlns="uri:oozie:workflow:0.1">
+	<start to="inputAvailableCheckDecision"/>
+        <decision name="inputAvailableCheckDecision">
+                <switch>
+                        <case to="logParserAction">
+                                ${inputDirRecordCount gt minRequiredRecordCount}
+                        </case>
+                        <default to="end"/>
+                </switch>
+        </decision>
+	<action name="logParserAction">
+                <java>
+                        <job-tracker>${jobTracker}</job-tracker>
+                        <name-node>${nameNode}</name-node>
+                        <prepare>
+                                <delete path="${outputDir}"/>
+                        </prepare>
+                        <configuration>
+                                <property>
+                                        <name>mapred.job.queue.name</name>
+                                        <value>${queueName}</value>
+                                </property>
+                        </configuration>
+                        <main-class>Airawat.Oozie.Samples.LogEventCount</main-class>
+                        <arg>${inputDir}</arg>
+                        <arg>${outputDir}</arg>
+                </java>
+                <ok to="dataExporterSubWorkflow"/>
+                <error to="killJob"/>
+        </action>
+        <action name='dataExporterSubWorkflow'>
+        	<sub-workflow>
+            		<app-path>${subWorkflowCodeDir}</app-path>
+			<propagate-configuration/>
+        	</sub-workflow>
+		<ok to="end"/>
+		<error to="killJob" />
+	</action>
+    	<kill name="killJob">
+    		<message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+    	</kill>
+       	<end name="end" />
+</workflow-app>

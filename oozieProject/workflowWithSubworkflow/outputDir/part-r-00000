@@ -1,0 +1,14 @@
+2013-NetworkManager	7
+2013-console-kit-daemon	7
+2013-gnome-session	11
+2013-init	166
+2013-kernel	810
+2013-login	2
+2013-nm-dispatcher.action	4
+2013-ntpd_initres	4133
+2013-polkit-agent-helper-1	8
+2013-pulseaudio	18
+2013-spice-vdagent	15
+2013-sshd	6
+2013-sudo	8
+2013-udevd	6

@@ -1,0 +1,30 @@
+<workflow-app name="SubworkflowApp-SubWf-DataExporter" xmlns="uri:oozie:workflow:0.1">
+	<start to="inputAvailableCheckDecision"/>
+        <decision name="inputAvailableCheckDecision">
+                <switch>
+                        <case to="sqoopAction">
+                                ${sqoopInputRecordCount gt minRequiredRecordCount}
+                        </case>
+                        <default to="end"/>
+                </switch>
+        </decision>
+	<action name="sqoopAction">
+                <sqoop xmlns="uri:oozie:sqoop-action:0.2">
+                        <job-tracker>${jobTracker}</job-tracker>
+                        <name-node>${nameNode}</name-node>
+                        <configuration>
+                                <property>
+                                        <name>oozie.libpath</name>
+                                        <value>${oozieLibPath}</value>
+                                </property>
+                        </configuration>
+                        <command>export --connect jdbc:mysql://${mysqlServer}/${mysqlServerDB} --username ${mysqlServerDBUID} --password ${mysqlServerDBPwd} --table Logged_Process_Count_By_Year  --direct --export-dir ${triggerDatasetDir} --fields-terminated-by "\t"</command>
+                </sqoop>
+                <ok to="end"/>
+                <error to="killJob"/>
+        </action>
+	<kill name="killJob">
+                <message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+        </kill>
+       	<end name="end" />
+</workflow-app>
