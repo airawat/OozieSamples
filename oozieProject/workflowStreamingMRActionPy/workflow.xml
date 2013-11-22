@@ -1,0 +1,42 @@
+<workflow-app name="WorkflowStreamingMRAction-Python" xmlns="uri:oozie:workflow:0.1">
+    <start to="streamingaAction"/>
+        <action name="streamingaAction">
+		<map-reduce>
+            		<job-tracker>${jobTracker}</job-tracker>
+            		<name-node>${nameNode}</name-node>
+            		<prepare>
+                		<delete path="${outputDir}"/>
+            		</prepare>
+            		<streaming>
+                		<mapper>python LogParserMapper.py</mapper>
+                		<reducer>python LogParserReducer.py</reducer>
+            		</streaming>
+            		<configuration>
+				<property>
+					<name>oozie.libpath</name>
+             				<value>${oozieLibPath}/mapreduce-streaming</value>
+           			</property>
+                		<property>
+                    			<name>mapred.input.dir</name>
+                    			<value>${inputDir}</value>
+                		</property>
+                		<property>
+                    			<name>mapred.output.dir</name>
+                    			<value>${outputDir}</value>
+                		</property>
+				<property>
+                    			<name>mapred.reduce.tasks</name>
+                    			<value>1</value>
+                		</property>
+            		</configuration>
+			<file>${appPath}/LogParserMapper.py#LogParserMapper.py</file>
+			<file>${appPath}/LogParserReducer.py#LogParserReducer.py</file>
+       		</map-reduce>
+                <ok to="end"/>
+                <error to="killJobAction"/>
+        </action>
+        <kill name="killJobAction">
+            <message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+        </kill>
+    <end name="end" />
+</workflow-app>

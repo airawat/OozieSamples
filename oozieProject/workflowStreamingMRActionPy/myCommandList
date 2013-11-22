@@ -1,0 +1,17 @@
+#---------------------COMMANDS--------------------------------------
+
+#Test mapper
+cat Data/*/*/*/* | python LogParserMapper.py
+
+#Test mapper and reducer
+cat Data/*/*/*/* | python LogParserMapper.py | sort | python LogParserReducer.py | sort
+
+#Delete prior copy of scripts
+hadoop fs -rm -R oozieProject/pythonApplication/
+
+
+#Load application
+hadoop fs -put ~/oozieProject/pythonApplication/ oozieProject/
+
+#Run on cluster
+hadoop jar /opt/cloudera/parcels/CDH-4.2.0-1.cdh4.2.0.p0.10/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.2.0.jar  -jobconf mapred.reduce.tasks=1  -file oozieProject/pythonApplication/LogParserMapper.py  -mapper oozieProject/pythonApplication/LogParserMapper.py  -file oozieProject/pythonApplication/LogParserReducer.py  -reducer oozieProject/pythonApplication/LogParserReducer.py    -input oozieProject/pythonApplication/Data/*/*/*/* -output oozieProject/pythonApplication/output-streaming
