@@ -1,0 +1,36 @@
+<workflow-app name="WorkflowApp-LogParser" xmlns="uri:oozie:workflow:0.2">
+    <start to="javaAction"/>
+        <action name="javaAction">
+                <java>
+			<job-tracker>${jobTracker}</job-tracker>
+                        <name-node>${nameNode}</name-node>
+			<prepare>
+                		<delete path="${logParserOutputDir}"/>
+            		</prepare>
+                        <configuration>
+				<property>
+                    			<name>mapred.job.queue.name</name>
+                	        	<value>${queueName}</value>
+		                </property>
+                        </configuration>
+			<main-class>Airawat.Oozie.Samples.LogEventCount</main-class>
+            		<arg>${logParserInputDir}</arg>
+            		<arg>${logParserOutputDir}</arg>
+                </java>
+                <ok to="end"/>
+                <error to="sendErrorEmail"/>
+        </action>
+	<action name="sendErrorEmail">
+                <email xmlns="uri:oozie:email-action:0.1">
+                        <to>${toEmailAddress}</to>
+                        <subject>Status of workflow ${wf:id()}</subject>
+                        <body>The workflow ${wf:name()} with id -${wf:id()}, had issues and will be killed;  The error logged is: ${wf:errorMessage(wf:lastErrorNode());}</body>
+                </email>
+                <ok to="killJobAction"/>
+                <error to="killJobAction"/>
+        </action>
+        <kill name="killJobAction">
+                <message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+        </kill>
+    <end name="end" />
+</workflow-app>

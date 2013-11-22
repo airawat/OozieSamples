@@ -1,0 +1,28 @@
+<coordinator-app name="CoordApp-DataExporter" 
+		 frequency="${coord:days(1)}"
+                 start="${startTime}" 
+		 end="${endTime}" 
+		 timezone="${timeZoneDef}"
+                 xmlns="uri:oozie:coordinator:0.2">
+       	<controls>
+                <timeout>20</timeout>
+                <concurrency>6</concurrency>
+                <execution>FIFO</execution>
+        </controls>
+	 <datasets>
+                <dataset name="inputDS" frequency="${coord:days(1)}" initial-instance="${startTime}" timezone="${timeZoneDef}">
+                        <uri-template>${triggerDatasetDir}</uri-template>
+                </dataset>
+        </datasets>
+        <input-events>
+                <data-in name="CoordAppTrigDepInput" dataset="inputDS">
+                        <instance>${startTime}</instance>
+                </data-in>
+        </input-events>
+        <action>
+                <workflow>
+                        <app-path>${workflowAppDataExporterPath}</app-path>
+                </workflow>
+        </action>     
+</coordinator-app>
+

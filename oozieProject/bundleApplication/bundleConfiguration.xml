@@ -1,0 +1,11 @@
+<bundle-app name='BundleApp' xmlns='uri:oozie:bundle:0.2'> 
+  <controls>
+       <kick-off-time>${startTime}</kick-off-time>
+  </controls>
+  <coordinator name='CoordApp-LogParser' >
+       <app-path>${coordAppPathLogParser}</app-path>
+   </coordinator>
+   <coordinator name='CoordApp-DataExporter' >
+       <app-path>${coordAppPathDataExporter}</app-path>
+   </coordinator>
+</bundle-app> 
