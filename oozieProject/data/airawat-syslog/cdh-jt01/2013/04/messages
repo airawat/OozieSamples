@@ -1,0 +1,3 @@
+Apr 23 16:24:43 cdh-jt01 sudo: airawat : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/airawat ; USER=root ; COMMAND=/bin/su -
+Apr 23 19:41:02 cdh-jt01 sudo: airawat : user NOT in sudoers ; TTY=pts/1 ; PWD=/etc/hadoop/conf.cloudera.mapreduce1 ; USER=root ; COMMAND=/bin/su -
+Apr 23 19:41:10 cdh-jt01 sudo: airawat : user NOT in sudoers ; TTY=pts/1 ; PWD=/etc/hadoop/conf.cloudera.mapreduce1 ; USER=root ; COMMAND=/bin/su

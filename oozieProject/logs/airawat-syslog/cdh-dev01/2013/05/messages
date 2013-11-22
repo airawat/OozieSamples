@@ -1,0 +1,372 @@
+May  3 11:43:30 cdh-dev01 init: tty (/dev/tty2) main process (1533) killed by TERM signal
+May  3 11:43:30 cdh-dev01 init: tty (/dev/tty3) main process (1535) killed by TERM signal
+May  3 11:43:30 cdh-dev01 init: tty (/dev/tty4) main process (1537) killed by TERM signal
+May  3 11:43:30 cdh-dev01 init: tty (/dev/tty5) main process (1539) killed by TERM signal
+May  3 11:43:30 cdh-dev01 init: tty (/dev/tty6) main process (1541) killed by TERM signal
+May  3 11:43:39 cdh-dev01 console-kit-daemon[1580]: WARNING: no sender#012
+May  3 11:43:39 cdh-dev01 init: Disconnected from system bus
+May  3 11:44:11 cdh-dev01 kernel: SMBIOS version 2.5 @ 0xFFF60
+May  3 11:44:11 cdh-dev01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  3 11:44:11 cdh-dev01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  3 11:44:11 cdh-dev01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  3 11:44:11 cdh-dev01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  3 11:44:11 cdh-dev01 kernel: ACPI: FACS 000000003fff0200 00040
+May  3 11:44:11 cdh-dev01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  3 11:44:11 cdh-dev01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  3 11:44:11 cdh-dev01 kernel: Zone PFN ranges:
+May  3 11:44:11 cdh-dev01 kernel:  DMA      0x00000001 -> 0x00001000
+May  3 11:44:11 cdh-dev01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  3 11:44:11 cdh-dev01 kernel:  Normal   0x00100000 -> 0x00100000
+May  3 11:44:11 cdh-dev01 kernel: Movable zone start PFN for each node
+May  3 11:44:11 cdh-dev01 kernel: early_node_map[2] active PFN ranges
+May  3 11:44:11 cdh-dev01 kernel:    0: 0x00000001 -> 0x0000009f
+May  3 11:44:11 cdh-dev01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  3 11:44:11 cdh-dev01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  3 11:44:11 cdh-dev01 kernel: Policy zone: DMA32
+May  3 11:44:11 cdh-dev01 kernel: Console: colour VGA+ 80x25
+May  3 11:44:11 cdh-dev01 kernel: Fast TSC calibration using PIT
+May  3 11:44:11 cdh-dev01 kernel: Detected 2714.552 MHz processor.
+May  3 11:44:11 cdh-dev01 kernel: Mount-cache hash table entries: 256
+May  3 11:44:11 cdh-dev01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  3 11:44:11 cdh-dev01 kernel: bio: create slab <bio-0> at 0
+May  3 11:44:11 cdh-dev01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  3 11:44:11 cdh-dev01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  3 11:44:11 cdh-dev01 kernel: ksign: Installing public key data
+May  3 11:44:11 cdh-dev01 kernel: Loading keyring
+May  3 11:44:11 cdh-dev01 kernel: - Added public key 6AA10540A705B299
+May  3 11:44:11 cdh-dev01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  3 11:44:11 cdh-dev01 kernel: ipmi_si: Unable to find any System Interface(s)
+May  3 11:44:11 cdh-dev01 kernel: registered taskstats version 1
+May  3 11:44:11 cdh-dev01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  3 11:44:11 cdh-dev01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  3 11:44:11 cdh-dev01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  3 11:44:12 cdh-dev01 NetworkManager[1342]: (nm-device.c:3281):nm_device_activate: runtime check failed: (priv->state == NM_DEVICE_STATE_DISCONNECTED)
+May  3 11:44:26 cdh-dev01 spice-vdagent[1886]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  3 11:44:27 cdh-dev01 spice-vdagent[1917]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  3 11:44:29 cdh-dev01 pulseaudio[1943]: pid.c: Stale PID file, overwriting.
+May  3 11:44:31 cdh-dev01 pulseaudio[2005]: pid.c: Daemon already running.
+May  3 11:44:40 cdh-dev01 kernel: hrtimer: interrupt took 6528409 ns
+May  3 11:45:31 cdh-dev01 init: Disconnected from system bus
+May  3 11:45:31 cdh-dev01 console-kit-daemon[1779]: WARNING: no sender#012
+May  3 11:45:31 cdh-dev01 nm-dispatcher.action: Disconnected from the system bus, exiting.
+May  3 11:45:31 cdh-dev01 polkit-agent-helper-1[2036]: pam_unix(polkit-1:auth): conversation failed
+May  3 11:45:31 cdh-dev01 polkit-agent-helper-1[2036]: pam_unix(polkit-1:auth): auth could not identify password for [root]
+May  3 11:45:59 cdh-dev01 kernel: SMBIOS version 2.5 @ 0xFFF60
+May  3 11:45:59 cdh-dev01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  3 11:45:59 cdh-dev01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  3 11:45:59 cdh-dev01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  3 11:45:59 cdh-dev01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  3 11:45:59 cdh-dev01 kernel: ACPI: FACS 000000003fff0200 00040
+May  3 11:45:59 cdh-dev01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  3 11:45:59 cdh-dev01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  3 11:45:59 cdh-dev01 kernel: Zone PFN ranges:
+May  3 11:45:59 cdh-dev01 kernel:  DMA      0x00000001 -> 0x00001000
+May  3 11:45:59 cdh-dev01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  3 11:45:59 cdh-dev01 kernel:  Normal   0x00100000 -> 0x00100000
+May  3 11:45:59 cdh-dev01 kernel: Movable zone start PFN for each node
+May  3 11:45:59 cdh-dev01 kernel: early_node_map[2] active PFN ranges
+May  3 11:45:59 cdh-dev01 kernel:    0: 0x00000001 -> 0x0000009f
+May  3 11:45:59 cdh-dev01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  3 11:45:59 cdh-dev01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  3 11:45:59 cdh-dev01 kernel: Policy zone: DMA32
+May  3 11:45:59 cdh-dev01 kernel: Console: colour VGA+ 80x25
+May  3 11:45:59 cdh-dev01 kernel: Fast TSC calibration using PIT
+May  3 11:45:59 cdh-dev01 kernel: Detected 2714.331 MHz processor.
+May  3 11:45:59 cdh-dev01 kernel: Mount-cache hash table entries: 256
+May  3 11:45:59 cdh-dev01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  3 11:45:59 cdh-dev01 kernel: bio: create slab <bio-0> at 0
+May  3 11:45:59 cdh-dev01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  3 11:45:59 cdh-dev01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  3 11:45:59 cdh-dev01 kernel: ksign: Installing public key data
+May  3 11:45:59 cdh-dev01 kernel: Loading keyring
+May  3 11:45:59 cdh-dev01 kernel: - Added public key 6AA10540A705B299
+May  3 11:45:59 cdh-dev01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  3 11:45:59 cdh-dev01 kernel: ipmi_si: Unable to find any System Interface(s)
+May  3 11:45:59 cdh-dev01 kernel: registered taskstats version 1
+May  3 11:45:59 cdh-dev01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  3 11:45:59 cdh-dev01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  3 11:45:59 cdh-dev01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  3 11:46:00 cdh-dev01 NetworkManager[1232]: (nm-device.c:3281):nm_device_activate: runtime check failed: (priv->state == NM_DEVICE_STATE_DISCONNECTED)
+May  3 11:46:13 cdh-dev01 spice-vdagent[1781]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  3 11:46:14 cdh-dev01 spice-vdagent[1813]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  3 11:46:16 cdh-dev01 pulseaudio[1847]: pid.c: Stale PID file, overwriting.
+May  3 11:46:18 cdh-dev01 pulseaudio[1903]: pid.c: Daemon already running.
+May  3 11:46:29 cdh-dev01 ntpd_initres[1872]: host name not found: 0.rhel.pool.ntp.org
+May  3 11:46:39 cdh-dev01 ntpd_initres[1872]: host name not found: 1.rhel.pool.ntp.org
+May  3 11:46:49 cdh-dev01 ntpd_initres[1872]: host name not found: 2.rhel.pool.ntp.org
+May  3 11:47:56 cdh-dev01 ntpd_initres[1872]: host name not found: 0.rhel.pool.ntp.org
+May  3 11:48:06 cdh-dev01 ntpd_initres[1872]: host name not found: 1.rhel.pool.ntp.org
+May  3 11:48:16 cdh-dev01 ntpd_initres[1872]: host name not found: 2.rhel.pool.ntp.org
+May  3 11:50:23 cdh-dev01 ntpd_initres[1872]: host name not found: 0.rhel.pool.ntp.org
+May  3 11:50:28 cdh-dev01 ntpd_initres[1872]: host name not found: 1.rhel.pool.ntp.org
+May  3 11:50:33 cdh-dev01 ntpd_initres[1872]: host name not found: 2.rhel.pool.ntp.org
+May  3 11:54:45 cdh-dev01 ntpd_initres[1872]: host name not found: 0.rhel.pool.ntp.org
+May  3 11:54:55 cdh-dev01 ntpd_initres[1872]: host name not found: 1.rhel.pool.ntp.org
+May  3 11:55:05 cdh-dev01 ntpd_initres[1872]: host name not found: 2.rhel.pool.ntp.org
+May  3 12:03:12 cdh-dev01 ntpd_initres[1872]: host name not found: 0.rhel.pool.ntp.org
+May  3 12:03:17 cdh-dev01 ntpd_initres[1872]: host name not found: 1.rhel.pool.ntp.org
+May  3 12:03:22 cdh-dev01 ntpd_initres[1872]: host name not found: 2.rhel.pool.ntp.org
+May  3 12:03:49 cdh-dev01 kernel: hrtimer: interrupt took 4306636 ns
+May  3 12:19:30 cdh-dev01 ntpd_initres[1872]: host name not found: 0.rhel.pool.ntp.org
+May  3 12:19:35 cdh-dev01 ntpd_initres[1872]: host name not found: 1.rhel.pool.ntp.org
+May  3 12:19:40 cdh-dev01 ntpd_initres[1872]: host name not found: 2.rhel.pool.ntp.org
+May  3 12:35:47 cdh-dev01 ntpd_initres[1872]: host name not found: 0.rhel.pool.ntp.org
+May  3 12:35:57 cdh-dev01 ntpd_initres[1872]: host name not found: 1.rhel.pool.ntp.org
+May  3 12:36:07 cdh-dev01 ntpd_initres[1872]: host name not found: 2.rhel.pool.ntp.org
+May  3 12:52:15 cdh-dev01 ntpd_initres[1872]: host name not found: 0.rhel.pool.ntp.org
+May  3 12:52:25 cdh-dev01 ntpd_initres[1872]: host name not found: 1.rhel.pool.ntp.org
+May  3 12:52:35 cdh-dev01 ntpd_initres[1872]: host name not found: 2.rhel.pool.ntp.org
+May  6 10:55:52 cdh-dev01 sshd[7151]: pam_unix(sshd:auth): check pass; user unknown
+May  6 10:55:52 cdh-dev01 sshd[7151]: pam_succeed_if(sshd:auth): error retrieving information about user airawatar
+May  6 10:55:59 cdh-dev01 sshd[7151]: pam_unix(sshd:auth): check pass; user unknown
+May  6 10:55:59 cdh-dev01 sshd[7151]: pam_succeed_if(sshd:auth): error retrieving information about user airawatar
+May  6 10:56:05 cdh-dev01 sshd[7151]: pam_unix(sshd:auth): check pass; user unknown
+May  6 10:56:05 cdh-dev01 sshd[7151]: pam_succeed_if(sshd:auth): error retrieving information about user airawatar
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty2) main process (1755) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty3) main process (1757) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty4) main process (1762) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty5) main process (1764) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty6) main process (1766) killed by TERM signal
+May  7 00:04:04 cdh-dev01 kernel: SMBIOS version 2.5 @ 0xFFF60
+May  7 00:04:04 cdh-dev01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:04:04 cdh-dev01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:04:04 cdh-dev01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:04:04 cdh-dev01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:04:04 cdh-dev01 kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:04:04 cdh-dev01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:04:04 cdh-dev01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:04:04 cdh-dev01 kernel: Zone PFN ranges:
+May  7 00:04:04 cdh-dev01 kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:04:04 cdh-dev01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:04:04 cdh-dev01 kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:04:04 cdh-dev01 kernel: Movable zone start PFN for each node
+May  7 00:04:04 cdh-dev01 kernel: early_node_map[2] active PFN ranges
+May  7 00:04:04 cdh-dev01 kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:04:04 cdh-dev01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:04:04 cdh-dev01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:04:04 cdh-dev01 kernel: Policy zone: DMA32
+May  3 11:45:31 cdh-dev01 init: Disconnected from system bus
+May  3 11:45:31 cdh-dev01 console-kit-daemon[1779]: WARNING: no sender#012
+May  3 11:45:31 cdh-dev01 nm-dispatcher.action: Disconnected from the system bus, exiting.
+May  3 11:45:31 cdh-dev01 polkit-agent-helper-1[2036]: pam_unix(polkit-1:auth): conversation failed
+May  3 11:45:31 cdh-dev01 polkit-agent-helper-1[2036]: pam_unix(polkit-1:auth): auth could not identify password for [root]
+May  7 00:04:04 cdh-dev01 kernel: Console: colour VGA+ 80x25
+May  7 00:04:04 cdh-dev01 kernel: Fast TSC calibration using PIT
+May  7 00:04:04 cdh-dev01 kernel: Detected 2713.722 MHz processor.
+May  7 00:04:04 cdh-dev01 kernel: Mount-cache hash table entries: 256
+May  7 00:04:04 cdh-dev01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:04:07 cdh-dev01 NetworkManager[1284]: (nm-device.c:3281):nm_device_activate: runtime check failed: (priv->state == NM_DEVICE_STATE_DISCONNECTED)
+May  7 00:04:25 cdh-dev01 spice-vdagent[1955]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 00:04:26 cdh-dev01 spice-vdagent[1995]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 00:04:27 cdh-dev01 gnome-session[1980]: atk-bridge-WARNING: AT_SPI_REGISTRY was not started at session startup.
+May  7 00:04:27 cdh-dev01 gnome-session[1980]: atk-bridge-WARNING: IOR not set.
+May  7 00:04:27 cdh-dev01 gnome-session[1980]: atk-bridge-WARNING: Could not locate registry
+May  7 00:04:28 cdh-dev01 pulseaudio[2031]: pid.c: Stale PID file, overwriting.
+May  7 00:04:28 cdh-dev01 pulseaudio[2030]: pid.c: Stale PID file, overwriting.
+May  7 00:04:30 cdh-dev01 pulseaudio[2076]: pid.c: Daemon already running.
+May  7 00:04:32 cdh-dev01 ntpd_initres[1952]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:04:37 cdh-dev01 ntpd_initres[1952]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:04:42 cdh-dev01 ntpd_initres[1952]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:05:49 cdh-dev01 ntpd_initres[1952]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:05:54 cdh-dev01 ntpd_initres[1952]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:05:59 cdh-dev01 ntpd_initres[1952]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:08:06 cdh-dev01 ntpd_initres[1952]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:08:11 cdh-dev01 ntpd_initres[1952]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:08:16 cdh-dev01 ntpd_initres[1952]: host name not found: 2.rhel.pool.ntp.org
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty2) main process (1755) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty3) main process (1757) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty4) main process (1762) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty5) main process (1764) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty6) main process (1766) killed by TERM signal
+May  7 00:12:38 cdh-dev01 kernel: SMBIOS version 2.5 @ 0xFFF60
+May  7 00:12:38 cdh-dev01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:12:38 cdh-dev01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:12:38 cdh-dev01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:12:38 cdh-dev01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:12:38 cdh-dev01 kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:12:38 cdh-dev01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:12:38 cdh-dev01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:12:38 cdh-dev01 kernel: Zone PFN ranges:
+May  7 00:12:38 cdh-dev01 kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:12:38 cdh-dev01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:12:38 cdh-dev01 kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:12:38 cdh-dev01 kernel: Movable zone start PFN for each node
+May  7 00:12:38 cdh-dev01 kernel: early_node_map[2] active PFN ranges
+May  7 00:12:38 cdh-dev01 kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:12:38 cdh-dev01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:12:38 cdh-dev01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:12:38 cdh-dev01 kernel: Policy zone: DMA32
+May  7 00:12:38 cdh-dev01 kernel: Console: colour VGA+ 80x25
+May  7 00:12:38 cdh-dev01 kernel: Fast TSC calibration failed
+May  7 00:12:38 cdh-dev01 kernel: Detected 2712.610 MHz processor.
+May  3 11:45:31 cdh-dev01 init: Disconnected from system bus
+May  3 11:45:31 cdh-dev01 console-kit-daemon[1779]: WARNING: no sender#012
+May  3 11:45:31 cdh-dev01 nm-dispatcher.action: Disconnected from the system bus, exiting.
+May  3 11:45:31 cdh-dev01 polkit-agent-helper-1[2036]: pam_unix(polkit-1:auth): conversation failed
+May  3 11:45:31 cdh-dev01 polkit-agent-helper-1[2036]: pam_unix(polkit-1:auth): auth could not identify password for [root]
+May  7 00:12:38 cdh-dev01 kernel: Mount-cache hash table entries: 256
+May  7 00:12:38 cdh-dev01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:12:38 cdh-dev01 kernel: bio: create slab <bio-0> at 0
+May  7 00:12:38 cdh-dev01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:12:43 cdh-dev01 NetworkManager[1292]: (nm-device.c:3281):nm_device_activate: runtime check failed: (priv->state == NM_DEVICE_STATE_DISCONNECTED)
+May  7 00:13:11 cdh-dev01 ntpd_initres[1736]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:13:12 cdh-dev01 spice-vdagent[1974]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 00:13:13 cdh-dev01 spice-vdagent[2020]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 00:13:14 cdh-dev01 gnome-session[2010]: atk-bridge-WARNING: AT_SPI_REGISTRY was not started at session startup.
+May  7 00:13:14 cdh-dev01 gnome-session[2010]: atk-bridge-WARNING: IOR not set.
+May  7 00:13:14 cdh-dev01 gnome-session[2010]: atk-bridge-WARNING: Could not locate registry
+May  7 00:13:15 cdh-dev01 pulseaudio[2032]: pid.c: Stale PID file, overwriting.
+May  7 00:13:15 cdh-dev01 pulseaudio[2074]: pid.c: Stale PID file, overwriting.
+May  7 00:13:16 cdh-dev01 ntpd_initres[1736]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:13:17 cdh-dev01 pulseaudio[2116]: pid.c: Daemon already running.
+May  7 00:13:22 cdh-dev01 ntpd_initres[1736]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:14:29 cdh-dev01 ntpd_initres[1736]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:14:34 cdh-dev01 ntpd_initres[1736]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:14:39 cdh-dev01 ntpd_initres[1736]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:16:46 cdh-dev01 ntpd_initres[1736]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:16:51 cdh-dev01 ntpd_initres[1736]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:16:56 cdh-dev01 ntpd_initres[1736]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:21:03 cdh-dev01 ntpd_initres[1736]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:21:08 cdh-dev01 ntpd_initres[1736]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:21:13 cdh-dev01 ntpd_initres[1736]: host name not found: 2.rhel.pool.ntp.org
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty2) main process (1755) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty3) main process (1757) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty4) main process (1762) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty5) main process (1764) killed by TERM signal
+May  3 11:45:30 cdh-dev01 init: tty (/dev/tty6) main process (1766) killed by TERM signal
+May  3 11:45:31 cdh-dev01 init: Disconnected from system bus
+May  3 11:45:31 cdh-dev01 console-kit-daemon[1779]: WARNING: no sender#012
+May  3 11:45:31 cdh-dev01 nm-dispatcher.action: Disconnected from the system bus, exiting.
+May  3 11:45:31 cdh-dev01 polkit-agent-helper-1[2036]: pam_unix(polkit-1:auth): conversation failed
+May  3 11:45:31 cdh-dev01 polkit-agent-helper-1[2036]: pam_unix(polkit-1:auth): auth could not identify password for [root]
+May  7 00:54:19 cdh-dev01 kernel: SMBIOS version 2.5 @ 0xFFF60
+May  7 00:54:19 cdh-dev01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:54:19 cdh-dev01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:54:19 cdh-dev01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:54:19 cdh-dev01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:54:19 cdh-dev01 kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:54:19 cdh-dev01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:54:19 cdh-dev01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:54:19 cdh-dev01 kernel: Zone PFN ranges:
+May  7 00:54:19 cdh-dev01 kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:54:19 cdh-dev01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:54:19 cdh-dev01 kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:54:19 cdh-dev01 kernel: Movable zone start PFN for each node
+May  7 00:54:19 cdh-dev01 kernel: early_node_map[2] active PFN ranges
+May  7 00:54:19 cdh-dev01 kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:54:19 cdh-dev01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:54:19 cdh-dev01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:54:19 cdh-dev01 kernel: Policy zone: DMA32
+May  7 00:54:19 cdh-dev01 kernel: Console: colour VGA+ 80x25
+May  7 00:54:19 cdh-dev01 kernel: Fast TSC calibration failed
+May  7 00:54:19 cdh-dev01 kernel: TSC: Unable to calibrate against PIT
+May  7 00:54:19 cdh-dev01 kernel: Detected 2712.293 MHz processor.
+May  7 00:54:19 cdh-dev01 kernel: Mount-cache hash table entries: 256
+May  7 00:54:19 cdh-dev01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:54:19 cdh-dev01 kernel: bio: create slab <bio-0> at 0
+May  7 00:54:19 cdh-dev01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:54:19 cdh-dev01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 00:54:19 cdh-dev01 kernel: ksign: Installing public key data
+May  7 00:54:19 cdh-dev01 kernel: Loading keyring
+May  7 00:54:19 cdh-dev01 kernel: - Added public key 6AA10540A705B299
+May  7 00:54:19 cdh-dev01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 00:54:19 cdh-dev01 kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 00:54:19 cdh-dev01 kernel: registered taskstats version 1
+May  7 00:54:19 cdh-dev01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 00:54:19 cdh-dev01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 00:54:19 cdh-dev01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 00:54:21 cdh-dev01 NetworkManager[1300]: (nm-device.c:3281):nm_device_activate: runtime check failed: (priv->state == NM_DEVICE_STATE_DISCONNECTED)
+May  7 00:54:39 cdh-dev01 spice-vdagent[1984]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 00:54:40 cdh-dev01 spice-vdagent[2016]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 00:54:41 cdh-dev01 gnome-session[2009]: atk-bridge-WARNING: AT_SPI_REGISTRY was not started at session startup.
+May  7 00:54:41 cdh-dev01 gnome-session[2009]: atk-bridge-WARNING: IOR not set.
+May  7 00:54:41 cdh-dev01 gnome-session[2009]: atk-bridge-WARNING: Could not locate registry
+May  7 00:54:42 cdh-dev01 pulseaudio[2044]: pid.c: Stale PID file, overwriting.
+May  7 00:54:43 cdh-dev01 pulseaudio[2067]: pid.c: Stale PID file, overwriting.
+May  7 00:54:44 cdh-dev01 pulseaudio[2106]: pid.c: Daemon already running.
+May  7 00:54:46 cdh-dev01 ntpd_initres[1980]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:54:51 cdh-dev01 ntpd_initres[1980]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:54:56 cdh-dev01 ntpd_initres[1980]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:56:03 cdh-dev01 ntpd_initres[1980]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:56:08 cdh-dev01 ntpd_initres[1980]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:56:13 cdh-dev01 ntpd_initres[1980]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:58:20 cdh-dev01 ntpd_initres[1980]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:58:25 cdh-dev01 ntpd_initres[1980]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:58:30 cdh-dev01 ntpd_initres[1980]: host name not found: 2.rhel.pool.ntp.org
+May  7 01:02:37 cdh-dev01 ntpd_initres[1980]: host name not found: 0.rhel.pool.ntp.org
+May  7 01:02:42 cdh-dev01 ntpd_initres[1980]: host name not found: 1.rhel.pool.ntp.org
+May  7 01:02:47 cdh-dev01 ntpd_initres[1980]: host name not found: 2.rhel.pool.ntp.org
+May  6 22:37:26 cdh-dev01 kernel: hrtimer: interrupt took 6015056 ns
+May  7 12:50:36 cdh-dev01 init: tty (/dev/tty2) main process (1831) killed by TERM signal
+May  7 12:50:36 cdh-dev01 init: tty (/dev/tty3) main process (1833) killed by TERM signal
+May  7 12:50:36 cdh-dev01 init: tty (/dev/tty4) main process (1835) killed by TERM signal
+May  7 12:50:36 cdh-dev01 init: tty (/dev/tty5) main process (1837) killed by TERM signal
+May  7 12:50:36 cdh-dev01 init: tty (/dev/tty6) main process (1843) killed by TERM signal
+May  7 12:50:40 cdh-dev01 init: prefdm main process (1826) killed by KILL signal
+May  7 12:50:52 cdh-dev01 init: Disconnected from system bus
+May  7 12:50:52 cdh-dev01 console-kit-daemon[1861]: WARNING: no sender#012
+May  7 12:51:47 cdh-dev01 kernel: Zone PFN ranges:
+May  7 12:51:47 cdh-dev01 kernel:  DMA      0x00000001 -> 0x00001000
+May  7 12:51:47 cdh-dev01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 12:51:47 cdh-dev01 kernel:  Normal   0x00100000 -> 0x00100000
+May  7 12:51:47 cdh-dev01 kernel: Movable zone start PFN for each node
+May  7 12:51:47 cdh-dev01 kernel: early_node_map[2] active PFN ranges
+May  7 12:51:47 cdh-dev01 kernel:    0: 0x00000001 -> 0x0000009f
+May  7 12:51:47 cdh-dev01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 12:51:47 cdh-dev01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 12:51:47 cdh-dev01 kernel: Policy zone: DMA32
+May  7 12:51:47 cdh-dev01 kernel: Console: colour VGA+ 80x25
+May  7 12:51:47 cdh-dev01 kernel: Fast TSC calibration using PIT
+May  7 12:51:47 cdh-dev01 kernel: Detected 2712.340 MHz processor.
+May  7 12:51:47 cdh-dev01 kernel: Mount-cache hash table entries: 256
+May  7 12:51:47 cdh-dev01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 12:51:47 cdh-dev01 kernel: bio: create slab <bio-0> at 0
+May  7 12:51:47 cdh-dev01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 12:51:47 cdh-dev01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 12:51:49 cdh-dev01 NetworkManager[1422]: (nm-device.c:3281):nm_device_activate: runtime check failed: (priv->state == NM_DEVICE_STATE_DISCONNECTED)
+May  7 12:52:45 cdh-dev01 spice-vdagent[2109]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 12:52:49 cdh-dev01 spice-vdagent[2114]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 12:53:03 cdh-dev01 pulseaudio[2162]: pid.c: Stale PID file, overwriting.
+May  7 12:53:12 cdh-dev01 gnome-session[2033]: WARNING: Application 'gnome-panel.desktop' failed to register before timeout
+May  7 12:53:17 cdh-dev01 pulseaudio[2257]: pid.c: Daemon already running.
+May  7 13:17:55 cdh-dev01 init: tty (/dev/tty2) main process (1926) killed by TERM signal
+May  7 13:17:55 cdh-dev01 init: tty (/dev/tty3) main process (1928) killed by TERM signal
+May  7 13:17:55 cdh-dev01 init: tty (/dev/tty4) main process (1930) killed by TERM signal
+May  7 13:17:55 cdh-dev01 init: tty (/dev/tty5) main process (1932) killed by TERM signal
+May  7 13:17:55 cdh-dev01 init: tty (/dev/tty6) main process (1934) killed by TERM signal
+May  7 13:18:03 cdh-dev01 init: Disconnected from system bus
+May  7 13:18:03 cdh-dev01 console-kit-daemon[1964]: WARNING: no sender#012
+May  7 13:18:36 cdh-dev01 kernel: Zone PFN ranges:
+May  7 13:18:36 cdh-dev01 kernel:  DMA      0x00000001 -> 0x00001000
+May  7 13:18:36 cdh-dev01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 13:18:36 cdh-dev01 kernel:  Normal   0x00100000 -> 0x00100000
+May  7 13:18:36 cdh-dev01 kernel: Movable zone start PFN for each node
+May  7 13:18:36 cdh-dev01 kernel: early_node_map[2] active PFN ranges
+May  7 13:18:36 cdh-dev01 kernel:    0: 0x00000001 -> 0x0000009f
+May  7 13:18:36 cdh-dev01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 13:18:36 cdh-dev01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 13:18:36 cdh-dev01 kernel: Policy zone: DMA32
+May  7 13:18:36 cdh-dev01 kernel: Console: colour VGA+ 80x25
+May  7 13:18:36 cdh-dev01 kernel: Fast TSC calibration using PIT
+May  7 13:18:36 cdh-dev01 kernel: Detected 2712.176 MHz processor.
+May  7 13:18:36 cdh-dev01 kernel: Mount-cache hash table entries: 256
+May  7 13:18:36 cdh-dev01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 13:18:36 cdh-dev01 kernel: bio: create slab <bio-0> at 0
+May  7 13:18:36 cdh-dev01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 13:18:36 cdh-dev01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 13:18:36 cdh-dev01 kernel: ksign: Installing public key data
+May  7 13:18:36 cdh-dev01 kernel: Loading keyring
+May  7 13:18:36 cdh-dev01 kernel: - Added public key 6AA10540A705B299
+May  7 13:18:36 cdh-dev01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 13:18:36 cdh-dev01 kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 13:18:36 cdh-dev01 kernel: registered taskstats version 1
+May  7 13:18:36 cdh-dev01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 13:18:36 cdh-dev01 kernel: hrtimer: interrupt took 15344736 ns
+May  7 13:18:36 cdh-dev01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 13:18:36 cdh-dev01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 13:18:38 cdh-dev01 NetworkManager[1243]: (nm-device.c:3281):nm_device_activate: runtime check failed: (priv->state == NM_DEVICE_STATE_DISCONNECTED)
+May  7 13:19:01 cdh-dev01 spice-vdagent[1968]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 13:19:02 cdh-dev01 spice-vdagent[1978]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+May  7 13:19:13 cdh-dev01 gnome-session[1902]: WARNING: Application 'gnome-settings-daemon.desktop' failed to register before timeout
+May  7 13:19:27 cdh-dev01 pulseaudio[2039]: pid.c: Stale PID file, overwriting.
+May  7 13:19:33 cdh-dev01 pulseaudio[2135]: pid.c: Daemon already running.

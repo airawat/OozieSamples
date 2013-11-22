@@ -1,0 +1,2 @@
+Apr 23 16:14:10 cdh-dev01 spice-vdagent[5657]: Missing virtio device '/dev/virtio-ports/com.redhat.spice.0': No such file or directory
+Apr 23 16:14:12 cdh-dev01 pulseaudio[5705]: pid.c: Daemon already running.

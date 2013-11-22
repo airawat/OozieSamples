@@ -1,0 +1,1035 @@
+May  3 11:48:21 cdh-nn01 init: tty (/dev/tty2) main process (1194) killed by TERM signal
+May  3 11:48:21 cdh-nn01 init: tty (/dev/tty3) main process (1196) killed by TERM signal
+May  3 11:48:21 cdh-nn01 init: tty (/dev/tty4) main process (1198) killed by TERM signal
+May  3 11:48:21 cdh-nn01 init: tty (/dev/tty5) main process (1200) killed by TERM signal
+May  3 11:48:21 cdh-nn01 init: tty (/dev/tty6) main process (1208) killed by TERM signal
+May  3 11:48:57 cdh-nn01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  3 11:48:57 cdh-nn01 kernel: Policy zone: DMA32
+May  3 11:48:57 cdh-nn01 kernel: Console: colour VGA+ 80x25
+May  3 11:48:57 cdh-nn01 kernel: Fast TSC calibration using PIT
+May  3 11:48:57 cdh-nn01 kernel: Detected 2714.627 MHz processor.
+May  3 11:48:57 cdh-nn01 kernel: Mount-cache hash table entries: 256
+May  3 11:48:57 cdh-nn01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  3 11:48:57 cdh-nn01 kernel: bio: create slab <bio-0> at 0
+May  3 11:48:57 cdh-nn01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  3 11:48:57 cdh-nn01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  3 11:48:57 cdh-nn01 kernel: ksign: Installing public key data
+May  3 11:48:57 cdh-nn01 kernel: Loading keyring
+May  3 11:48:57 cdh-nn01 kernel: - Added public key 6AA10540A705B299
+May  3 11:48:57 cdh-nn01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  3 11:48:57 cdh-nn01 kernel: ipmi_si: Unable to find any System Interface(s)
+May  3 11:48:57 cdh-nn01 kernel: registered taskstats version 1
+May  3 11:48:57 cdh-nn01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  3 11:48:57 cdh-nn01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  3 11:48:57 cdh-nn01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  3 11:49:23 cdh-nn01 kernel: hrtimer: interrupt took 13309754 ns
+May  3 11:49:25 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 11:49:30 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 11:49:35 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 11:50:42 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 11:50:47 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 11:50:52 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 11:52:59 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 11:53:04 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 11:53:09 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 11:57:16 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 11:57:21 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 11:57:26 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 12:05:34 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 12:05:39 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 12:05:44 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 12:21:52 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 12:21:57 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 12:22:02 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 12:38:10 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 12:38:15 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 12:38:20 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 12:54:28 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 12:54:33 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 12:54:38 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 13:10:46 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 13:10:51 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 13:10:56 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 13:27:04 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 13:27:09 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 13:27:14 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 13:43:22 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 13:43:27 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 13:43:32 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 13:59:40 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 13:59:45 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 13:59:50 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 14:15:58 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 14:16:03 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 14:16:08 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 14:32:16 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 14:32:21 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 14:32:26 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 14:48:34 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 14:48:39 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 14:48:44 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 15:04:52 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 15:04:57 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 15:05:02 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 15:21:10 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 15:21:15 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 15:21:20 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 15:37:28 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 15:37:33 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 15:37:38 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 15:53:46 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 15:53:51 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 15:53:56 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 16:10:04 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 16:10:09 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 16:10:14 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 16:26:22 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 16:26:27 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 16:26:32 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 16:42:40 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 16:42:45 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 16:42:50 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 16:58:58 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 16:59:03 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 16:59:08 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 17:15:16 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 17:15:21 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 17:15:26 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 17:31:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 17:31:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 17:31:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 17:47:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 17:47:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 17:48:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 18:04:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 18:04:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 18:04:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 18:20:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 18:20:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 18:20:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 18:36:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 18:36:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 18:36:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 18:53:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 18:53:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 18:53:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 19:09:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 19:09:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 19:09:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 19:25:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 19:25:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 19:25:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 19:41:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 19:42:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 19:42:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 19:58:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 19:58:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 19:58:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 20:14:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 20:14:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 20:14:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 20:30:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 20:30:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 20:31:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 20:47:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 20:47:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 20:47:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 21:03:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 21:03:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 21:03:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 21:19:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 21:19:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 21:19:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 21:36:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 21:36:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 21:36:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 21:52:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 21:52:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 21:52:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 22:08:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 22:08:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 22:08:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 22:24:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 22:25:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 22:25:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 22:41:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 22:41:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 22:41:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 22:57:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 22:57:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 22:57:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 23:13:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 23:13:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 23:14:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 23:30:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 23:30:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 23:30:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  3 23:46:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  3 23:46:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  3 23:46:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 00:02:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 00:02:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 00:02:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 00:19:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 00:19:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 00:19:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 00:35:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 00:35:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 00:35:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 00:51:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 00:51:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 00:51:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 01:07:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 01:08:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 01:08:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 01:24:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 01:24:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 01:24:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 01:40:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 01:40:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 01:40:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 01:56:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 01:56:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 01:57:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 02:13:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 02:13:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 02:13:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 02:29:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 02:29:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 02:29:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 02:45:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 02:45:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 02:45:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 03:02:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 03:02:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 03:02:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 03:18:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 03:18:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 03:18:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 03:34:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 03:34:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 03:34:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 03:50:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 03:51:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 03:51:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 04:07:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 04:07:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 04:07:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 04:23:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 04:23:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 04:23:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 04:39:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 04:39:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 04:40:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 04:56:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 04:56:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 04:56:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 05:12:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 05:12:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 05:12:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 05:28:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 05:28:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 05:28:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 05:45:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 05:45:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 05:45:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 06:01:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 06:01:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 06:01:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 06:17:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 06:17:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 06:17:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 06:33:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 06:34:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 06:34:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 06:50:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 06:50:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 06:50:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 07:06:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 07:06:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 07:06:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 07:22:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 07:22:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 07:23:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 07:39:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 07:39:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 07:39:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 07:55:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 07:55:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 07:55:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 08:11:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 08:11:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 08:11:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 08:28:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 08:28:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 08:28:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 08:44:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 08:44:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 08:44:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 09:00:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 09:00:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 09:00:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 09:16:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 09:17:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 09:17:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 09:33:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 09:33:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 09:33:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 09:49:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 09:49:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 09:49:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 10:05:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 10:05:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 10:06:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 10:22:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 10:22:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 10:22:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 10:38:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 10:38:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 10:38:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 10:54:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 10:54:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 10:54:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 11:11:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 11:11:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 11:11:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 11:27:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 11:27:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 11:27:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 11:43:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 11:43:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 11:43:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 11:59:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 12:00:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 12:00:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 12:16:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 12:16:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 12:16:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 12:32:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 12:32:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 12:32:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 12:48:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 12:48:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 12:49:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 13:05:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 13:05:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 13:05:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 13:21:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 13:21:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 13:21:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 13:37:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 13:37:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 13:37:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 13:54:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 13:54:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 13:54:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 14:10:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 14:10:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 14:10:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 14:26:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 14:26:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 14:26:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 14:42:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 14:43:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 14:43:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 14:59:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 14:59:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 14:59:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 15:15:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 15:15:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 15:15:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 15:31:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 15:31:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 15:32:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 15:48:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 15:48:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 15:48:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 16:04:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 16:04:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 16:04:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 16:20:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 16:20:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 16:20:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 16:37:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 16:37:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 16:37:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 16:53:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 16:53:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 16:53:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 17:09:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 17:09:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 17:09:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 17:25:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 17:26:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 17:26:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 17:42:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 17:42:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 17:42:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 17:58:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 17:58:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 17:58:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 18:14:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 18:14:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 18:15:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 18:31:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 18:31:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 18:31:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 18:47:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 18:47:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 18:47:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 19:03:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 19:03:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 19:03:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 19:20:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 19:20:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 19:20:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 19:36:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 19:36:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 19:36:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 19:52:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 19:52:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 19:52:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 20:08:57 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 20:09:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 20:09:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 20:25:15 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 20:25:20 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 20:25:25 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 20:41:33 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 20:41:38 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 20:41:43 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 20:57:51 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 20:57:56 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 20:58:01 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 21:14:09 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 21:14:14 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 21:14:19 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 21:30:27 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 21:30:32 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 21:30:37 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 21:46:45 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 21:46:50 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 21:46:55 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 22:03:03 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 22:03:08 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 22:03:13 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 22:19:21 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 22:19:26 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 22:19:31 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 22:35:39 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 22:35:44 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 22:35:49 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 22:51:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 22:52:02 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 22:52:07 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 23:08:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 23:08:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 23:08:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 23:24:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 23:24:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 23:24:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 23:40:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 23:40:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 23:41:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  4 23:57:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  4 23:57:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  4 23:57:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 00:13:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 00:13:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 00:13:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 00:29:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 00:29:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 00:29:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 00:46:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 00:46:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 00:46:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 01:02:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 01:02:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 01:02:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 01:18:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 01:18:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 01:18:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 01:34:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 01:35:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 01:35:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 01:51:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 01:51:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 01:51:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 02:07:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 02:07:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 02:07:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 02:23:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 02:23:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 02:24:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 02:40:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 02:40:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 02:40:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 02:56:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 02:56:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 02:56:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 03:12:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 03:12:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 03:12:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 03:29:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 03:29:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 03:29:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 03:45:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 03:45:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 03:45:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 04:01:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 04:01:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 04:01:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 04:17:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 04:18:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 04:18:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 04:34:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 04:34:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 04:34:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 04:50:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 04:50:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 04:50:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 05:06:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 05:06:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 05:07:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 05:23:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 05:23:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 05:23:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 05:39:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 05:39:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 05:39:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 05:55:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 05:55:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 05:55:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 06:12:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 06:12:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 06:12:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 06:28:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 06:28:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 06:28:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 06:44:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 06:44:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 06:44:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 07:00:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 07:01:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 07:01:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 07:17:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 07:17:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 07:17:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 07:33:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 07:33:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 07:33:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 07:49:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 07:49:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 07:50:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 08:06:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 08:06:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 08:06:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 08:22:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 08:22:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 08:22:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 08:38:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 08:38:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 08:38:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 08:55:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 08:55:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 08:55:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 09:11:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 09:11:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 09:11:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 09:27:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 09:27:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 09:27:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 09:43:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 09:44:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 09:44:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 10:00:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 10:00:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 10:00:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 10:16:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 10:16:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 10:16:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 10:32:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 10:32:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 10:33:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 10:49:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 10:49:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 10:49:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 11:05:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 11:05:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 11:05:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 11:21:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 11:21:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 11:21:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 11:38:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 11:38:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 11:38:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 11:54:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 11:54:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 11:54:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 12:10:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 12:10:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 12:10:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 12:26:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 12:27:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 12:27:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 12:43:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 12:43:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 12:43:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 12:59:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 12:59:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 12:59:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 13:15:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 13:15:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 13:16:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 13:32:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 13:32:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 13:32:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 13:48:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 13:48:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 13:48:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 14:04:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 14:04:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 14:04:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 14:21:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 14:21:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 14:21:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 14:37:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 14:37:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 14:37:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 14:53:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 14:53:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 14:53:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 15:09:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 15:10:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 15:10:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 15:26:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 15:26:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 15:26:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 15:42:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 15:42:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 15:42:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 15:58:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 15:58:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 15:59:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 16:15:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 16:15:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 16:15:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 16:31:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 16:31:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 16:31:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 16:47:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 16:47:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 16:47:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 17:04:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 17:04:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 17:04:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 17:20:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 17:20:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 17:20:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 17:36:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 17:36:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 17:36:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 17:52:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 17:53:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 17:53:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 18:09:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 18:09:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 18:09:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 18:25:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 18:25:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 18:25:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 18:41:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 18:41:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 18:42:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 18:58:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 18:58:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 18:58:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 19:14:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 19:14:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 19:14:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 19:30:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 19:30:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 19:30:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 19:47:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 19:47:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 19:47:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 20:03:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 20:03:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 20:03:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 20:19:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 20:19:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 20:19:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 20:35:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 20:36:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 20:36:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 20:52:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 20:52:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 20:52:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 21:08:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 21:08:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 21:08:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 21:24:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 21:24:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 21:25:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 21:41:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 21:41:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 21:41:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 21:57:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 21:57:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 21:57:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 22:13:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 22:13:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 22:13:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 22:30:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 22:30:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 22:30:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 22:46:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 22:46:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 22:46:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 23:02:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 23:02:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 23:02:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 23:18:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 23:19:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 23:19:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 23:35:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 23:35:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 23:35:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  5 23:51:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  5 23:51:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  5 23:51:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 00:07:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 00:07:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 00:08:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 00:24:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 00:24:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 00:24:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 00:40:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 00:40:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 00:40:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 00:56:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 00:56:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 00:56:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 01:13:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 01:13:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 01:13:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 01:29:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 01:29:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 01:29:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 01:45:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 01:45:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 01:45:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 02:01:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 02:02:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 02:02:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 02:18:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 02:18:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 02:18:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 02:34:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 02:34:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 02:34:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 02:50:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 02:50:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 02:51:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 03:07:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 03:07:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 03:07:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 03:23:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 03:23:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 03:23:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 03:39:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 03:39:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 03:39:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 03:56:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 03:56:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 03:56:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 04:12:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 04:12:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 04:12:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 04:28:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 04:28:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 04:28:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 04:44:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 04:45:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 04:45:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 05:01:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 05:01:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 05:01:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 05:17:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 05:17:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 05:17:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 05:33:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 05:33:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 05:34:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 05:50:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 05:50:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 05:50:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 06:06:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 06:06:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 06:06:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 06:22:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 06:22:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 06:22:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 06:39:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 06:39:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 06:39:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 06:55:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 06:55:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 06:55:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 07:11:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 07:11:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 07:11:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 07:27:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 07:28:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 07:28:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 07:44:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 07:44:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 07:44:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 08:00:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 08:00:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 08:00:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 08:16:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 08:16:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 08:17:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 08:33:08 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 08:33:13 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 08:33:18 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 08:49:26 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 08:49:31 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 08:49:36 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 09:05:44 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 09:05:49 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 09:05:54 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 09:22:02 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 09:22:07 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 09:22:12 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 09:38:20 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 09:38:25 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 09:38:30 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 09:54:38 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 09:54:43 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 09:54:48 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 10:10:56 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 10:11:01 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 10:11:06 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 10:27:14 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 10:27:19 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 10:27:24 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 10:43:32 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 10:43:37 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 10:43:42 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 10:59:50 cdh-nn01 ntpd_initres[1592]: host name not found: 0.rhel.pool.ntp.org
+May  6 10:59:55 cdh-nn01 ntpd_initres[1592]: host name not found: 1.rhel.pool.ntp.org
+May  6 11:00:00 cdh-nn01 ntpd_initres[1592]: host name not found: 2.rhel.pool.ntp.org
+May  6 15:17:26 cdh-nn01 init: tty (/dev/tty1) main process (1574) killed by TERM signal
+May  6 15:17:26 cdh-nn01 init: tty (/dev/tty2) main process (1576) killed by TERM signal
+May  6 15:17:26 cdh-nn01 init: tty (/dev/tty3) main process (1578) killed by TERM signal
+May  6 15:17:26 cdh-nn01 init: tty (/dev/tty4) main process (1581) killed by TERM signal
+May  6 15:17:26 cdh-nn01 init: tty (/dev/tty5) main process (1583) killed by TERM signal
+May  6 15:17:26 cdh-nn01 init: tty (/dev/tty6) main process (1589) killed by TERM signal
+May  6 15:18:10 cdh-nn01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  6 15:18:10 cdh-nn01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  6 15:18:10 cdh-nn01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  6 15:18:18 cdh-nn01 kernel: __ratelimit: 3 callbacks suppressed
+May  6 15:18:45 cdh-nn01 ntpd_initres[1234]: host name not found: 0.rhel.pool.ntp.org
+May  6 15:18:50 cdh-nn01 ntpd_initres[1234]: host name not found: 1.rhel.pool.ntp.org
+May  6 15:18:55 cdh-nn01 ntpd_initres[1234]: host name not found: 2.rhel.pool.ntp.org
+May  6 15:20:02 cdh-nn01 ntpd_initres[1234]: host name not found: 0.rhel.pool.ntp.org
+May  6 15:20:07 cdh-nn01 ntpd_initres[1234]: host name not found: 1.rhel.pool.ntp.org
+May  6 15:20:12 cdh-nn01 ntpd_initres[1234]: host name not found: 2.rhel.pool.ntp.org
+May  6 15:22:19 cdh-nn01 ntpd_initres[1234]: host name not found: 0.rhel.pool.ntp.org
+May  6 15:22:24 cdh-nn01 ntpd_initres[1234]: host name not found: 1.rhel.pool.ntp.org
+May  6 15:22:29 cdh-nn01 ntpd_initres[1234]: host name not found: 2.rhel.pool.ntp.org
+May  6 15:25:55 cdh-nn01 kernel: hrtimer: interrupt took 18981877 ns
+May  6 15:26:36 cdh-nn01 ntpd_initres[1234]: host name not found: 0.rhel.pool.ntp.org
+May  6 15:26:42 cdh-nn01 ntpd_initres[1234]: host name not found: 1.rhel.pool.ntp.org
+May  6 15:26:47 cdh-nn01 ntpd_initres[1234]: host name not found: 2.rhel.pool.ntp.org
+May  6 15:34:54 cdh-nn01 ntpd_initres[1234]: host name not found: 0.rhel.pool.ntp.org
+May  6 15:34:59 cdh-nn01 ntpd_initres[1234]: host name not found: 1.rhel.pool.ntp.org
+May  6 15:35:04 cdh-nn01 ntpd_initres[1234]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:06:18 cdh-nn01 kernel: SMBIOS version 2.5 @ 0xFFF60
+May  7 00:06:18 cdh-nn01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:06:18 cdh-nn01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:06:18 cdh-nn01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:06:18 cdh-nn01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:06:18 cdh-nn01 kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:06:18 cdh-nn01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:06:18 cdh-nn01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:06:18 cdh-nn01 kernel: Zone PFN ranges:
+May  7 00:06:18 cdh-nn01 kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:06:18 cdh-nn01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:06:18 cdh-nn01 kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:06:18 cdh-nn01 kernel: Movable zone start PFN for each node
+May  7 00:06:18 cdh-nn01 kernel: early_node_map[2] active PFN ranges
+May  7 00:06:18 cdh-nn01 kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:06:18 cdh-nn01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:06:18 cdh-nn01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:06:18 cdh-nn01 kernel: Policy zone: DMA32
+May  7 00:06:18 cdh-nn01 kernel: Console: colour VGA+ 80x25
+May  7 00:06:18 cdh-nn01 kernel: Fast TSC calibration failed
+May  7 00:06:18 cdh-nn01 kernel: TSC: Unable to calibrate against PIT
+May  7 00:06:18 cdh-nn01 kernel: Detected 2712.062 MHz processor.
+May  7 00:06:18 cdh-nn01 kernel: Mount-cache hash table entries: 256
+May  7 00:06:18 cdh-nn01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:06:18 cdh-nn01 kernel: bio: create slab <bio-0> at 0
+May  7 00:06:18 cdh-nn01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:06:47 cdh-nn01 ntpd_initres[1218]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:06:52 cdh-nn01 ntpd_initres[1218]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:06:57 cdh-nn01 ntpd_initres[1218]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:08:04 cdh-nn01 ntpd_initres[1218]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:08:09 cdh-nn01 ntpd_initres[1218]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:08:14 cdh-nn01 ntpd_initres[1218]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:10:21 cdh-nn01 ntpd_initres[1218]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:10:26 cdh-nn01 ntpd_initres[1218]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:10:31 cdh-nn01 ntpd_initres[1218]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:12:46 cdh-nn01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:12:46 cdh-nn01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:12:46 cdh-nn01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:12:46 cdh-nn01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:12:46 cdh-nn01 kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:12:46 cdh-nn01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:12:46 cdh-nn01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:12:46 cdh-nn01 kernel: Zone PFN ranges:
+May  7 00:12:46 cdh-nn01 kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:12:46 cdh-nn01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:12:46 cdh-nn01 kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:12:46 cdh-nn01 kernel: Movable zone start PFN for each node
+May  7 00:12:46 cdh-nn01 kernel: early_node_map[2] active PFN ranges
+May  7 00:12:46 cdh-nn01 kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:12:46 cdh-nn01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:12:46 cdh-nn01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:12:46 cdh-nn01 kernel: Policy zone: DMA32
+May  7 00:12:46 cdh-nn01 kernel: Console: colour VGA+ 80x25
+May  7 00:12:46 cdh-nn01 kernel: Fast TSC calibration using PIT
+May  7 00:12:46 cdh-nn01 kernel: Detected 2712.717 MHz processor.
+May  7 00:12:46 cdh-nn01 kernel: Mount-cache hash table entries: 256
+May  7 00:12:46 cdh-nn01 kernel: APIC calibration not consistent with PM-Timer: 110ms instead of 100ms
+May  7 00:12:46 cdh-nn01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:12:46 cdh-nn01 kernel: bio: create slab <bio-0> at 0
+May  7 00:12:46 cdh-nn01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:13:17 cdh-nn01 ntpd_initres[1231]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:13:22 cdh-nn01 ntpd_initres[1231]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:13:27 cdh-nn01 ntpd_initres[1231]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:14:34 cdh-nn01 ntpd_initres[1231]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:14:39 cdh-nn01 ntpd_initres[1231]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:14:44 cdh-nn01 ntpd_initres[1231]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:16:51 cdh-nn01 ntpd_initres[1231]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:16:56 cdh-nn01 ntpd_initres[1231]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:17:01 cdh-nn01 ntpd_initres[1231]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:21:08 cdh-nn01 ntpd_initres[1231]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:21:13 cdh-nn01 ntpd_initres[1231]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:21:18 cdh-nn01 ntpd_initres[1231]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:54:20 cdh-nn01 kernel: SMBIOS version 2.5 @ 0xFFF60
+May  7 00:54:20 cdh-nn01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:54:20 cdh-nn01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:54:20 cdh-nn01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:54:20 cdh-nn01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:54:20 cdh-nn01 kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:54:20 cdh-nn01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:54:20 cdh-nn01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:54:20 cdh-nn01 kernel: Zone PFN ranges:
+May  7 00:54:20 cdh-nn01 kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:54:20 cdh-nn01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:54:20 cdh-nn01 kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:54:20 cdh-nn01 kernel: Movable zone start PFN for each node
+May  7 00:54:20 cdh-nn01 kernel: early_node_map[2] active PFN ranges
+May  7 00:54:20 cdh-nn01 kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:54:20 cdh-nn01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:54:20 cdh-nn01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:54:20 cdh-nn01 kernel: Policy zone: DMA32
+May  7 00:54:20 cdh-nn01 kernel: Console: colour VGA+ 80x25
+May  7 00:54:20 cdh-nn01 kernel: Fast TSC calibration using PIT
+May  7 00:54:20 cdh-nn01 kernel: Detected 2712.073 MHz processor.
+May  7 00:54:20 cdh-nn01 kernel: Mount-cache hash table entries: 256
+May  7 00:54:20 cdh-nn01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:54:20 cdh-nn01 kernel: bio: create slab <bio-0> at 0
+May  7 00:54:20 cdh-nn01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:54:20 cdh-nn01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 00:54:20 cdh-nn01 kernel: ksign: Installing public key data
+May  7 00:54:20 cdh-nn01 kernel: Loading keyring
+May  7 00:54:20 cdh-nn01 kernel: - Added public key 6AA10540A705B299
+May  7 00:54:20 cdh-nn01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 00:54:20 cdh-nn01 kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 00:54:20 cdh-nn01 kernel: registered taskstats version 1
+May  7 00:54:20 cdh-nn01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 00:54:20 cdh-nn01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 00:54:20 cdh-nn01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  6 22:01:53 cdh-nn01 init: tty (/dev/tty1) main process (1190) killed by TERM signal
+May  6 22:01:53 cdh-nn01 init: tty (/dev/tty2) main process (1192) killed by TERM signal
+May  6 22:01:53 cdh-nn01 init: tty (/dev/tty3) main process (1194) killed by TERM signal
+May  6 22:01:53 cdh-nn01 init: tty (/dev/tty4) main process (1196) killed by TERM signal
+May  6 22:01:53 cdh-nn01 init: tty (/dev/tty5) main process (1198) killed by TERM signal
+May  6 22:01:53 cdh-nn01 init: tty (/dev/tty6) main process (1200) killed by TERM signal
+May  6 22:02:25 cdh-nn01 kernel: SMBIOS version 2.5 @ 0xFFF60
+May  6 22:02:25 cdh-nn01 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  6 22:02:25 cdh-nn01 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  6 22:02:25 cdh-nn01 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  6 22:02:25 cdh-nn01 kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  6 22:02:25 cdh-nn01 kernel: ACPI: FACS 000000003fff0200 00040
+May  6 22:02:25 cdh-nn01 kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  6 22:02:25 cdh-nn01 kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  6 22:02:25 cdh-nn01 kernel: Zone PFN ranges:
+May  6 22:02:25 cdh-nn01 kernel:  DMA      0x00000001 -> 0x00001000
+May  6 22:02:25 cdh-nn01 kernel:  DMA32    0x00001000 -> 0x00100000
+May  6 22:02:25 cdh-nn01 kernel:  Normal   0x00100000 -> 0x00100000
+May  6 22:02:25 cdh-nn01 kernel: Movable zone start PFN for each node
+May  6 22:02:25 cdh-nn01 kernel: early_node_map[2] active PFN ranges
+May  6 22:02:25 cdh-nn01 kernel:    0: 0x00000001 -> 0x0000009f
+May  6 22:02:25 cdh-nn01 kernel:    0: 0x00000100 -> 0x0003fff0
+May  6 22:02:25 cdh-nn01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  6 22:02:25 cdh-nn01 kernel: Policy zone: DMA32
+May  6 22:02:25 cdh-nn01 kernel: Console: colour VGA+ 80x25
+May  6 22:02:25 cdh-nn01 kernel: Fast TSC calibration using PIT
+May  6 22:02:25 cdh-nn01 kernel: Detected 2712.310 MHz processor.
+May  6 22:02:25 cdh-nn01 kernel: Mount-cache hash table entries: 256
+May  6 22:02:25 cdh-nn01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  6 22:02:25 cdh-nn01 kernel: bio: create slab <bio-0> at 0
+May  6 22:02:25 cdh-nn01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  6 22:02:25 cdh-nn01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  6 22:02:25 cdh-nn01 kernel: ksign: Installing public key data
+May  6 22:02:25 cdh-nn01 kernel: Loading keyring
+May  6 22:02:25 cdh-nn01 kernel: - Added public key 6AA10540A705B299
+May  6 22:02:25 cdh-nn01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  6 22:02:25 cdh-nn01 kernel: ipmi_si: Unable to find any System Interface(s)
+May  6 22:02:25 cdh-nn01 kernel: registered taskstats version 1
+May  6 22:02:25 cdh-nn01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  6 22:02:25 cdh-nn01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  6 22:02:25 cdh-nn01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 04:05:04 cdh-nn01 kernel: hrtimer: interrupt took 3630608 ns
+May  7 12:50:07 cdh-nn01 init: tty (/dev/tty1) main process (1214) killed by TERM signal
+May  7 12:50:07 cdh-nn01 init: tty (/dev/tty2) main process (1216) killed by TERM signal
+May  7 12:50:07 cdh-nn01 init: tty (/dev/tty3) main process (1218) killed by TERM signal
+May  7 12:50:07 cdh-nn01 init: tty (/dev/tty4) main process (1221) killed by TERM signal
+May  7 12:50:07 cdh-nn01 init: tty (/dev/tty5) main process (1227) killed by TERM signal
+May  7 12:50:07 cdh-nn01 init: tty (/dev/tty6) main process (1229) killed by TERM signal
+May  7 12:50:55 cdh-nn01 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 12:50:55 cdh-nn01 kernel: Policy zone: DMA32
+May  7 12:50:55 cdh-nn01 kernel: Console: colour VGA+ 80x25
+May  7 12:50:55 cdh-nn01 kernel: Fast TSC calibration using PIT
+May  7 12:50:55 cdh-nn01 kernel: Detected 2712.452 MHz processor.
+May  7 12:50:55 cdh-nn01 kernel: Mount-cache hash table entries: 256
+May  7 12:50:55 cdh-nn01 kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 12:50:55 cdh-nn01 kernel: bio: create slab <bio-0> at 0
+May  7 12:50:55 cdh-nn01 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 12:50:55 cdh-nn01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 12:50:55 cdh-nn01 kernel: ksign: Installing public key data
+May  7 12:50:55 cdh-nn01 kernel: Loading keyring
+May  7 12:50:55 cdh-nn01 kernel: - Added public key 6AA10540A705B299
+May  7 12:50:55 cdh-nn01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 13:18:24 cdh-nn01 init: tty (/dev/tty1) main process (1559) killed by TERM signal
+May  7 13:18:24 cdh-nn01 init: tty (/dev/tty2) main process (1561) killed by TERM signal
+May  7 13:18:24 cdh-nn01 init: tty (/dev/tty3) main process (1563) killed by TERM signal
+May  7 13:18:24 cdh-nn01 init: tty (/dev/tty4) main process (1565) killed by TERM signal
+May  7 13:18:24 cdh-nn01 init: tty (/dev/tty5) main process (1567) killed by TERM signal
+May  7 13:18:24 cdh-nn01 init: tty (/dev/tty6) main process (1569) killed by TERM signal
+May  7 13:19:14 cdh-nn01 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 13:19:14 cdh-nn01 kernel: ksign: Installing public key data
+May  7 13:19:14 cdh-nn01 kernel: Loading keyring
+May  7 13:19:14 cdh-nn01 kernel: - Added public key 6AA10540A705B299
+May  7 13:19:14 cdh-nn01 kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 13:19:14 cdh-nn01 kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 13:19:14 cdh-nn01 kernel: registered taskstats version 1
+May  7 13:19:14 cdh-nn01 kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 13:19:14 cdh-nn01 kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 13:19:14 cdh-nn01 kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 13:20:42 cdh-nn01 kernel: hrtimer: interrupt took 14476556 ns

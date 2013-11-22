@@ -1,0 +1,36 @@
+<workflow-app name="WorkflowWithHiveAction" xmlns="uri:oozie:workflow:0.1">
+    	<start to="hiveAction"/>
+ 	<action name="hiveAction">
+  		<hive xmlns="uri:oozie:hive-action:0.2">
+              		<job-tracker>${jobTracker}</job-tracker>
+              		<name-node>${nameNode}</name-node>
+   			<job-xml>${appPath}/hive-site.xml</job-xml>
+   			<script>${appPath}/runHiveLogReport.hql</script>
+         	</hive>
+         	<ok to="sendEmailSuccess"/>
+         	<error to="sendEmailKillHive"/>
+     	</action>
+ 	<action name="sendEmailSuccess">
+         	<email xmlns="uri:oozie:email-action:0.1">
+              		<to>${emailToAddress}</to>
+              		<subject>Status of workflow ${wf:id()}</subject>
+              		<body>The workflow ${wf:id()} completed successfully</body>
+         	</email>
+         	<ok to="end"/>
+         	<error to="end"/>
+ 	</action>
+        <action name="sendEmailKillHive">
+                <email xmlns="uri:oozie:email-action:0.1">
+                        <to>${emailToAddress}</to>
+                        <subject>Status of workflow ${wf:id()}</subject>
+                      <body>The workflow ${wf:id()} had issues with the hive action and was killed.  The error logged is: ${wf:errorMessage(wf:lastErrorNode());}</body>
+                </email>
+         	<ok to="killJobAction"/>
+        	<error to="killJobAction"/>
+ 	</action>
+	<kill name="killJobAction">
+            <message>"Killed job due to error in FS Action"</message>
+        </kill>
+	<end name="end" />
+</workflow-app>
+

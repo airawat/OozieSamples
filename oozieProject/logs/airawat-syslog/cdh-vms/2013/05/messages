@@ -1,0 +1,250 @@
+May  7 00:38:56 cdh-vms kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:38:56 cdh-vms kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:38:56 cdh-vms kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:38:56 cdh-vms kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:38:56 cdh-vms kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:38:56 cdh-vms kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:38:56 cdh-vms kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:38:56 cdh-vms kernel: Zone PFN ranges:
+May  7 00:38:56 cdh-vms kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:38:56 cdh-vms kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:38:56 cdh-vms kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:38:56 cdh-vms kernel: Movable zone start PFN for each node
+May  7 00:38:56 cdh-vms kernel: early_node_map[2] active PFN ranges
+May  7 00:38:56 cdh-vms kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:38:56 cdh-vms kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:38:56 cdh-vms kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:38:56 cdh-vms kernel: Policy zone: DMA32
+May  7 00:38:56 cdh-vms kernel: Console: colour VGA+ 80x25
+May  7 00:38:56 cdh-vms kernel: Fast TSC calibration using PIT
+May  7 00:38:56 cdh-vms kernel: Detected 2712.169 MHz processor.
+May  7 00:38:56 cdh-vms kernel: Mount-cache hash table entries: 256
+May  7 00:38:56 cdh-vms kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:38:56 cdh-vms kernel: bio: create slab <bio-0> at 0
+May  7 00:38:56 cdh-vms kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:38:56 cdh-vms kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 00:38:56 cdh-vms kernel: ksign: Installing public key data
+May  7 00:38:56 cdh-vms kernel: Loading keyring
+May  7 00:38:56 cdh-vms kernel: - Added public key 6AA10540A705B299
+May  7 00:38:56 cdh-vms kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 00:38:56 cdh-vms kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 00:38:56 cdh-vms kernel: registered taskstats version 1
+May  7 00:38:56 cdh-vms kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 00:38:56 cdh-vms kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 00:38:56 cdh-vms kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 00:38:58 cdh-vms ntpd_initres[1084]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:38:58 cdh-vms ntpd_initres[1084]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:38:58 cdh-vms ntpd_initres[1084]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:40:01 cdh-vms ntpd_initres[1084]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:40:01 cdh-vms ntpd_initres[1084]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:40:01 cdh-vms ntpd_initres[1084]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:40:53 cdh-vms /etc/sysconfig/network-scripts/i Device eth0 does not seem to be present, delaying initialization.
+May  7 00:41:10 cdh-vms init: tty (/dev/tty2) main process (1251) killed by TERM signal
+May  7 00:41:10 cdh-vms init: tty (/dev/tty3) main process (1253) killed by TERM signal
+May  7 00:41:10 cdh-vms init: tty (/dev/tty4) main process (1255) killed by TERM signal
+May  7 00:41:10 cdh-vms init: tty (/dev/tty5) main process (1257) killed by TERM signal
+May  7 00:41:10 cdh-vms init: tty (/dev/tty6) main process (1265) killed by TERM signal
+May  7 00:38:56 cdh-vms kernel: SMBIOS version 2.5 @ 0xFFF60
+May  7 00:41:38 cdh-vms kernel: SMBIOS version 2.5 @ 0xFFF60
+May  7 00:41:38 cdh-vms kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:41:38 cdh-vms kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:41:38 cdh-vms kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:41:38 cdh-vms kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:41:38 cdh-vms kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:41:38 cdh-vms kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:41:38 cdh-vms kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:41:38 cdh-vms kernel: Zone PFN ranges:
+May  7 00:41:38 cdh-vms kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:41:38 cdh-vms kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:41:38 cdh-vms kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:41:38 cdh-vms kernel: Movable zone start PFN for each node
+May  7 00:41:38 cdh-vms kernel: early_node_map[2] active PFN ranges
+May  7 00:41:38 cdh-vms kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:41:38 cdh-vms kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:41:38 cdh-vms kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:41:38 cdh-vms kernel: Policy zone: DMA32
+May  7 00:41:38 cdh-vms kernel: Console: colour VGA+ 80x25
+May  7 00:41:38 cdh-vms kernel: Fast TSC calibration using PIT
+May  7 00:41:38 cdh-vms kernel: Detected 2712.048 MHz processor.
+May  7 00:41:38 cdh-vms kernel: Mount-cache hash table entries: 256
+May  7 00:41:38 cdh-vms kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:41:38 cdh-vms kernel: bio: create slab <bio-0> at 0
+May  7 00:41:38 cdh-vms kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:41:38 cdh-vms kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 00:41:38 cdh-vms kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 00:41:41 cdh-vms ntpd_initres[1026]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:41:41 cdh-vms ntpd_initres[1026]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:41:41 cdh-vms ntpd_initres[1026]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:42:13 cdh-vms /etc/sysconfig/network-scripts/i Device eth0 does not seem to be present, delaying initialization.
+May  7 00:42:43 cdh-vms ntpd_initres[1026]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:42:43 cdh-vms ntpd_initres[1026]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:42:43 cdh-vms ntpd_initres[1026]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:43:38 cdh-vms /etc/sysconfig/network-scripts/i Device eth0 does not seem to be present, delaying initialization.
+May  7 00:44:45 cdh-vms ntpd_initres[1026]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:44:45 cdh-vms ntpd_initres[1026]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:44:45 cdh-vms ntpd_initres[1026]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:45:01 cdh-vms /etc/sysconfig/network-scripts/i Device eth0 does not seem to be present, delaying initialization.
+May  7 00:47:18 cdh-vms /etc/sysconfig/network-scripts/i Device eth0 does not seem to be present, delaying initialization.
+May  7 00:47:41 cdh-vms /etc/sysconfig/network-scripts/i Device eth0 does not seem to be present, delaying initialization.
+May  7 00:48:26 cdh-vms init: tty (/dev/tty2) main process (1193) killed by TERM signal
+May  7 00:48:26 cdh-vms init: tty (/dev/tty3) main process (1195) killed by TERM signal
+May  7 00:48:26 cdh-vms init: tty (/dev/tty4) main process (1197) killed by TERM signal
+May  7 00:48:26 cdh-vms init: tty (/dev/tty5) main process (1202) killed by TERM signal
+May  7 00:48:26 cdh-vms init: tty (/dev/tty6) main process (1208) killed by TERM signal
+May  7 00:25:14 cdh-vms kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:25:14 cdh-vms kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:25:14 cdh-vms kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:25:14 cdh-vms kernel: Zone PFN ranges:
+May  7 00:25:14 cdh-vms kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:25:14 cdh-vms kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:25:14 cdh-vms kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:25:14 cdh-vms kernel: Movable zone start PFN for each node
+May  7 00:25:14 cdh-vms kernel: early_node_map[2] active PFN ranges
+May  7 00:25:14 cdh-vms kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:25:14 cdh-vms kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:25:14 cdh-vms kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:25:14 cdh-vms kernel: Policy zone: DMA32
+May  7 00:25:14 cdh-vms kernel: Console: colour VGA+ 80x25
+May  7 00:25:14 cdh-vms kernel: Fast TSC calibration using PIT
+May  7 00:25:14 cdh-vms kernel: Detected 2711.483 MHz processor.
+May  7 00:50:22 cdh-vms kernel: Zone PFN ranges:
+May  7 00:50:22 cdh-vms kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:50:22 cdh-vms kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:50:22 cdh-vms kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:50:22 cdh-vms kernel: Movable zone start PFN for each node
+May  7 00:50:22 cdh-vms kernel: early_node_map[2] active PFN ranges
+May  7 00:50:22 cdh-vms kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:50:22 cdh-vms kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:50:22 cdh-vms kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:50:22 cdh-vms kernel: Policy zone: DMA32
+May  7 00:50:22 cdh-vms kernel: Console: colour VGA+ 80x25
+May  7 00:50:22 cdh-vms kernel: Fast TSC calibration using PIT
+May  7 00:50:22 cdh-vms kernel: Detected 2711.446 MHz processor.
+May  7 00:50:22 cdh-vms kernel: Mount-cache hash table entries: 256
+May  7 00:50:22 cdh-vms kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:50:22 cdh-vms kernel: bio: create slab <bio-0> at 0
+May  7 00:50:22 cdh-vms kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:50:22 cdh-vms kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 00:50:22 cdh-vms kernel: ksign: Installing public key data
+May  7 00:50:22 cdh-vms kernel: Loading keyring
+May  7 00:50:22 cdh-vms kernel: - Added public key 6AA10540A705B299
+May  7 00:50:22 cdh-vms kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 00:50:22 cdh-vms kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 00:50:22 cdh-vms kernel: registered taskstats version 1
+May  7 00:50:22 cdh-vms kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 00:50:22 cdh-vms kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 00:50:22 cdh-vms kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 00:50:23 cdh-vms udevd[382]: can not read '/etc/udev/rules.d/70-persistent-net.rules'
+May  7 00:50:25 cdh-vms ntpd_initres[1042]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:50:25 cdh-vms ntpd_initres[1042]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:50:25 cdh-vms ntpd_initres[1042]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:51:17 cdh-vms init: tty (/dev/tty2) main process (1210) killed by TERM signal
+May  7 00:51:17 cdh-vms init: tty (/dev/tty3) main process (1212) killed by TERM signal
+May  7 00:51:17 cdh-vms init: tty (/dev/tty4) main process (1214) killed by TERM signal
+May  7 00:51:17 cdh-vms init: tty (/dev/tty5) main process (1218) killed by TERM signal
+May  7 00:51:17 cdh-vms init: tty (/dev/tty6) main process (1224) killed by TERM signal
+May  7 00:24:58 cdh-vms kernel: Zone PFN ranges:
+May  7 00:24:58 cdh-vms kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:24:58 cdh-vms kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:24:58 cdh-vms kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:24:58 cdh-vms kernel: Movable zone start PFN for each node
+May  7 00:24:58 cdh-vms kernel: early_node_map[2] active PFN ranges
+May  7 00:24:58 cdh-vms kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:24:58 cdh-vms kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:24:58 cdh-vms kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:24:58 cdh-vms kernel: Policy zone: DMA32
+May  7 00:24:58 cdh-vms kernel: Console: colour VGA+ 80x25
+May  7 00:24:58 cdh-vms kernel: Fast TSC calibration using PIT
+May  7 00:24:58 cdh-vms kernel: Detected 2684.926 MHz processor.
+May  7 00:24:58 cdh-vms kernel: Mount-cache hash table entries: 256
+May  7 00:24:58 cdh-vms kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:24:58 cdh-vms kernel: bio: create slab <bio-0> at 0
+May  7 00:24:58 cdh-vms kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:24:58 cdh-vms kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 00:24:58 cdh-vms kernel: ksign: Installing public key data
+May  7 00:24:58 cdh-vms kernel: Loading keyring
+May  7 00:24:58 cdh-vms kernel: - Added public key 6AA10540A705B299
+May  7 00:24:58 cdh-vms kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 00:24:58 cdh-vms kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 00:24:58 cdh-vms kernel: registered taskstats version 1
+May  7 00:24:58 cdh-vms kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 00:24:58 cdh-vms kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 00:24:58 cdh-vms kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 00:25:01 cdh-vms ntpd_initres[997]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:25:01 cdh-vms ntpd_initres[997]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:25:01 cdh-vms ntpd_initres[997]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:51:08 cdh-vms kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 00:51:08 cdh-vms kernel: ksign: Installing public key data
+May  7 00:51:08 cdh-vms kernel: Loading keyring
+May  7 00:51:08 cdh-vms kernel: - Added public key 6AA10540A705B299
+May  7 00:51:08 cdh-vms kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 00:51:08 cdh-vms kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 00:51:08 cdh-vms kernel: registered taskstats version 1
+May  7 00:51:08 cdh-vms kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 00:51:08 cdh-vms kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 00:51:08 cdh-vms kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 00:51:08 cdh-vms udevd[382]: can not read '/etc/udev/rules.d/70-persistent-net.rules'
+May  7 00:51:10 cdh-vms ntpd_initres[1036]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:51:10 cdh-vms ntpd_initres[1036]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:51:10 cdh-vms ntpd_initres[1036]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:51:24 cdh-vms login: pam_unix(login:auth): check pass; user unknown
+May  7 00:51:24 cdh-vms login: pam_succeed_if(login:auth): error retrieving information about user troot
+May  7 00:51:57 cdh-vms init: tty (/dev/tty2) main process (1204) killed by TERM signal
+May  7 00:51:57 cdh-vms init: tty (/dev/tty3) main process (1206) killed by TERM signal
+May  7 00:51:57 cdh-vms init: tty (/dev/tty4) main process (1208) killed by TERM signal
+May  7 00:51:57 cdh-vms init: tty (/dev/tty5) main process (1212) killed by TERM signal
+May  7 00:51:57 cdh-vms init: tty (/dev/tty6) main process (1220) killed by TERM signal
+May  7 00:24:23 cdh-vms kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+May  7 00:24:23 cdh-vms kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+May  7 00:24:23 cdh-vms kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+May  7 00:24:23 cdh-vms kernel: ACPI: DSDT 000000003fff0470 01B96 (v01 VBOX   VBOXBIOS 00000002 INTL 20100528)
+May  7 00:24:23 cdh-vms kernel: ACPI: FACS 000000003fff0200 00040
+May  7 00:24:23 cdh-vms kernel: ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+May  7 00:24:23 cdh-vms kernel: ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+May  7 00:24:23 cdh-vms kernel: Zone PFN ranges:
+May  7 00:24:23 cdh-vms kernel:  DMA      0x00000001 -> 0x00001000
+May  7 00:24:23 cdh-vms kernel:  DMA32    0x00001000 -> 0x00100000
+May  7 00:24:23 cdh-vms kernel:  Normal   0x00100000 -> 0x00100000
+May  7 00:24:23 cdh-vms kernel: Movable zone start PFN for each node
+May  7 00:24:23 cdh-vms kernel: early_node_map[2] active PFN ranges
+May  7 00:24:23 cdh-vms kernel:    0: 0x00000001 -> 0x0000009f
+May  7 00:24:23 cdh-vms kernel:    0: 0x00000100 -> 0x0003fff0
+May  7 00:24:23 cdh-vms kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 258346
+May  7 00:24:23 cdh-vms kernel: Policy zone: DMA32
+May  7 00:24:23 cdh-vms kernel: Console: colour VGA+ 80x25
+May  7 00:24:23 cdh-vms kernel: Fast TSC calibration using PIT
+May  7 00:24:23 cdh-vms kernel: Detected 2706.165 MHz processor.
+May  7 00:24:23 cdh-vms kernel: Mount-cache hash table entries: 256
+May  7 00:24:23 cdh-vms kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+May  7 00:24:23 cdh-vms kernel: bio: create slab <bio-0> at 0
+May  7 00:24:23 cdh-vms kernel: ACPI: Executed 1 blocks of module-level executable AML code
+May  7 00:24:23 cdh-vms kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+May  7 00:24:23 cdh-vms kernel: ksign: Installing public key data
+May  7 00:24:23 cdh-vms kernel: Loading keyring
+May  7 00:24:23 cdh-vms kernel: - Added public key 6AA10540A705B299
+May  7 00:24:23 cdh-vms kernel: - User ID: CentOS (Kernel Module GPG key)
+May  7 00:24:23 cdh-vms kernel: ipmi_si: Unable to find any System Interface(s)
+May  7 00:24:23 cdh-vms kernel: registered taskstats version 1
+May  7 00:24:23 cdh-vms kernel: sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+May  7 00:24:23 cdh-vms kernel: piix4_smbus 0000:00:07.0: SMBus base address uninitialized - upgrade BIOS or use force_addr=0xaddr
+May  7 00:24:23 cdh-vms kernel: nf_conntrack version 0.5.0 (7972 buckets, 31888 max)
+May  7 00:24:26 cdh-vms ntpd_initres[1053]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:24:26 cdh-vms ntpd_initres[1053]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:24:26 cdh-vms ntpd_initres[1053]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:25:28 cdh-vms ntpd_initres[1053]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:25:28 cdh-vms ntpd_initres[1053]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:25:28 cdh-vms ntpd_initres[1053]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:27:30 cdh-vms ntpd_initres[1053]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:27:30 cdh-vms ntpd_initres[1053]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:27:30 cdh-vms ntpd_initres[1053]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:31:32 cdh-vms ntpd_initres[1053]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:31:32 cdh-vms ntpd_initres[1053]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:31:32 cdh-vms ntpd_initres[1053]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:39:34 cdh-vms ntpd_initres[1053]: host name not found: 0.rhel.pool.ntp.org
+May  7 00:39:34 cdh-vms ntpd_initres[1053]: host name not found: 1.rhel.pool.ntp.org
+May  7 00:39:34 cdh-vms ntpd_initres[1053]: host name not found: 2.rhel.pool.ntp.org
+May  7 00:52:46 cdh-vms init: tty (/dev/tty2) main process (1220) killed by TERM signal
+May  7 00:52:46 cdh-vms init: tty (/dev/tty3) main process (1222) killed by TERM signal
+May  7 00:52:46 cdh-vms init: tty (/dev/tty4) main process (1224) killed by TERM signal
+May  7 00:52:46 cdh-vms init: tty (/dev/tty5) main process (1228) killed by TERM signal
+May  7 00:52:46 cdh-vms init: tty (/dev/tty6) main process (1234) killed by TERM signal

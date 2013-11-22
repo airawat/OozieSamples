@@ -1,0 +1,37 @@
+<!--******************************************-->
+<!--workflow.xml                              -->
+<!--******************************************-->
+
+<workflow-app name="WorkFlowForHDFSAndEmailActions" xmlns="uri:oozie:workflow:0.1">
+    <start to="hdfsCommands"/>
+    <action name="hdfsCommands">
+        <fs>
+            <mkdir path='${makeDirectoryAbsPath}'/>
+            <move source='${dataInputDirectoryAbsPath}' target='${dataDestinationDirectoryRelativePath}'/>
+        </fs>
+        <ok to="sendEmailSuccess"/>
+        <error to="sendEmailKill"/>
+    </action>
+    <action name="sendEmailSuccess">
+        <email xmlns="uri:oozie:email-action:0.1">
+              <to>${emailToAddress}</to>
+              <subject>Status of workflow ${wf:id()}</subject>
+              <body>The workflow ${wf:id()} completed successfully</body>
+        </email>
+        <ok to="end"/>
+        <error to="end"/>
+    </action>
+    <action name="sendEmailKill">
+        <email xmlns="uri:oozie:email-action:0.1">
+            <to>${emailToAddress}</to>
+            <subject>Status of workflow ${wf:id()}</subject>
+            <body>The workflow ${wf:id()} had issues and was killed.  The error message is: ${wf:errorMessage(wf:lastErrorNode())}</body>
+        </email>
+        <ok to="killJobFSAction"/>
+        <error to="killJobFSAction"/>
+    </action>
+    <kill name="killJobFSAction">
+        <message>"Killed job due to error in FS Action"</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
