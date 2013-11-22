@@ -1,0 +1,42 @@
+<workflow-app name="AirawatSampleCoordJob-Child" xmlns="uri:oozie:workflow:0.1">
+    <start to="startConcurrentHiveTasksFork"/>
+ 	<fork name="startConcurrentHiveTasksFork">
+                <path start="hiveActionIssuesByYM"/>
+                <path start="hiveActionTop3Issues"/>
+        </fork>
+	<action name="hiveActionIssuesByYM">
+  		<hive xmlns="uri:oozie:hive-action:0.2">
+              		<job-tracker>${jobTracker}</job-tracker>
+              		<name-node>${nameNode}</name-node>
+   			<job-xml>${subWorkflowAppPath}/hive-site.xml</job-xml>
+   			<script>${subWorkflowAppPath}/hiveConsolidated-Year-Month-Report.hql</script>
+         	</hive>
+         	<ok to="joiningControl-C"/>
+         	<error to="sendErrorEmail"/>
+     	</action>
+	<action name="hiveActionTop3Issues">
+                <hive xmlns="uri:oozie:hive-action:0.2">
+                        <job-tracker>${jobTracker}</job-tracker>
+                        <name-node>${nameNode}</name-node>
+                        <job-xml>${subWorkflowAppPath}/hive-site.xml</job-xml>
+                        <script>${subWorkflowAppPath}/hiveTop3Processes-Year-Report.hql</script>
+                </hive>
+                <ok to="joiningControl-C"/>
+                <error to="sendErrorEmail"/>
+        </action>
+        <kill name="killJobAction">
+            <message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+        </kill>
+	<action name="sendErrorEmail">
+                <email xmlns="uri:oozie:email-action:0.1">
+                        <to>${toEmailAddress}</to>
+                        <subject>Status of child workflow ${wf:id()}</subject>
+                        <body>The workflow ${wf:id()} had issues and will be killed;;  The error logged is: ${wf:errorMessage(wf:lastErrorNode())}</body>
+                </email>
+                <ok to="killJobAction"/>
+                <error to="killJobAction"/>
+        </action>
+	<join name="joiningControl-C" to="end"/>
+    <end name="end" />
+</workflow-app>
+
