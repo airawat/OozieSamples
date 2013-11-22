@@ -1,0 +1,38 @@
+<!--******************************************-->
+<!--workflow.xml                              -->
+<!--******************************************-->
+ 
+<workflow-app name="WorkFlowForShellActionWithCaptureOutput" xmlns="uri:oozie:workflow:0.1">
+    <start to="shellAction"/>
+    <action name="shellAction">
+        <shell xmlns="uri:oozie:shell-action:0.1">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <configuration>
+                <property>
+                  <name>mapred.job.queue.name</name>
+                  <value>${queueName}</value>
+                </property>
+            </configuration>
+            <exec>${lineCountShellScript}</exec>
+	    <argument>${inputDir}</argument>        
+            <file>${lineCountShScriptPath}#${lineCountShellScript}</file>
+            <capture-output/>
+        </shell>
+	<ok to="sendEmail"/>
+        <error to="killAction"/>
+    </action>
+    <action name="sendEmail">
+        <email xmlns="uri:oozie:email-action:0.1">
+              <to>${emailToAddress}</to>
+              <subject>Output of workflow ${wf:id()}</subject>
+              <body>Results from line count: ${wf:actionData('shellAction')['NumberOfLines']}</body>
+        </email>
+        <ok to="end"/>
+        <error to="end"/>
+    </action>
+    <kill name="killAction">
+        <message>"Killed job due to error"</message>
+    </kill>
+    <end name="end"/>
+</workflow-app>
