@@ -1,0 +1,27 @@
+<workflow-app name="WorkflowJavaMainAction" xmlns="uri:oozie:workflow:0.1">
+    <start to="javaMainAction"/>
+        <action name="javaMainAction">
+                <java>
+			<job-tracker>${jobTracker}</job-tracker>
+                        <name-node>${nameNode}</name-node>
+			<prepare>
+                		<delete path="${outputDir}"/>
+            		</prepare>
+                        <configuration>
+				<property>
+                    			<name>mapred.job.queue.name</name>
+                	        	<value>${queueName}</value>
+		                </property>
+                        </configuration>
+			<main-class>Airawat.Oozie.Samples.LogEventCount</main-class>
+            		<arg>${inputDir}</arg>
+            		<arg>${outputDir}</arg>
+                </java>
+                <ok to="end"/>
+                <error to="killJobAction"/>
+        </action>
+        <kill name="killJobAction">
+            <message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+        </kill>
+    <end name="end" />
+</workflow-app>
