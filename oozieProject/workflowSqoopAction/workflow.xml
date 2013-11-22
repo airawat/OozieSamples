@@ -1,0 +1,17 @@
+<workflow-app name="WorkflowWithSqoopAction" xmlns="uri:oozie:workflow:0.1">
+	<start to="sqoopAction"/>
+        <action name="sqoopAction">
+                <sqoop xmlns="uri:oozie:sqoop-action:0.2">
+                        <job-tracker>${jobTracker}</job-tracker>
+                        <name-node>${nameNode}</name-node>
+                        <command>export --connect jdbc:mysql://cdh-dev01/airawat --username devUser --password sun123123 --table eventsgranularreport  --direct --enclosed-by "  --export-dir /user/hive/warehouse/eventsgranularreport</command>
+                </sqoop>
+                <ok to="end"/>
+                <error to="killJob"/>
+        </action>
+	<kill name="killJob">
+            <message>"Killed job due to error: ${wf:errorMessage(wf:lastErrorNode())}"</message>
+        </kill>
+	<end name="end" />
+</workflow-app>
+
