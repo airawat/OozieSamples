@@ -34,6 +34,4 @@ Blog 12: Oozie workflow - shell action +passing output from one action to anothe
 
 Blog 13: Oozie workflow - SSH action
 
-Any questions, email me at anagha.a.khanolkar@gmail.com
 
-Cheers!
